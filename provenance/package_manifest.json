@@ -97,8 +97,8 @@
     },
     {
       "path": "figure_times_r1/event_chain_table.csv",
-      "bytes": 1434,
-      "sha256": "a93b559782ae4e14700e50a70bf0f0691d7e010de17190e7b36617c1707072f0"
+      "bytes": 1422,
+      "sha256": "a2d4c16913ad00f6623b7fe2169049a1816297712775684f447a6fa9b4443b41"
     },
     {
       "path": "figure_times_r1/font_config.py",
@@ -112,8 +112,8 @@
     },
     {
       "path": "figure_times_r1/redesign.py",
-      "bytes": 17503,
-      "sha256": "b08ca2f6458ed24f79ffef6b78a99874841851ece8325ff52d66d23647bbbe85"
+      "bytes": 17445,
+      "sha256": "3d04fe6d3f63e7240e90462a7e108ae136849944ea1b1e56f79a9cbe5c6f46d0"
     },
     {
       "path": "figure_times_r1/sources.json",
@@ -282,8 +282,8 @@
     },
     {
       "path": "paper/plot_event_compact.py",
-      "bytes": 3545,
-      "sha256": "060ea581eb256c69b3306e9c57390c627c34dba974f28a639023db49bf4721f1"
+      "bytes": 3493,
+      "sha256": "3cc76d27546bfa00ead51cbb0638ada83c640c4fa6799e1b6fcf7769e69afefe"
     },
     {
       "path": "paper/plot_initial_progress.py",
@@ -342,8 +342,8 @@
     },
     {
       "path": "paper/source_data/event_chain_table.csv",
-      "bytes": 1434,
-      "sha256": "a93b559782ae4e14700e50a70bf0f0691d7e010de17190e7b36617c1707072f0"
+      "bytes": 1422,
+      "sha256": "a2d4c16913ad00f6623b7fe2169049a1816297712775684f447a6fa9b4443b41"
     },
     {
       "path": "paper/source_data/fig_cost_comparisons.csv",
@@ -417,13 +417,13 @@
     },
     {
       "path": "provenance/source_manifest.json",
-      "bytes": 22891,
-      "sha256": "05ac92c3fcb2983f0f4f3031c75de378c40e281eb5b0a172fdb24a66099dce03"
+      "bytes": 22893,
+      "sha256": "2504e60cf8e4bc2dc5a6c51c41448400e9ea125361ce774577070491856258d1"
     },
     {
       "path": "README.md",
-      "bytes": 2626,
-      "sha256": "87f0b3ac21ed1cbb7c1dcf0a2264342e4d40593d87f6310a34dc65d9f22cc9f1"
+      "bytes": 2669,
+      "sha256": "80ca2eca2a66276d648c7a7f1f71cf1e5f3a62f42ae47cee3957319de365a5bc"
     },
     {
       "path": "requirements.txt",

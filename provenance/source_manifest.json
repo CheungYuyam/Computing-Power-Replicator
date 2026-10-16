@@ -93,7 +93,7 @@
     "source": "ieee_draft_v1\\source_data\\event_chain_table.csv",
     "destination": "paper\\source_data\\event_chain_table.csv",
     "original_sha256": "45a65d8390fec9e33d2a9fda1a1f9db45430234feae0baa5fd4b35c959b69c46",
-    "packaged_sha256": "a93b559782ae4e14700e50a70bf0f0691d7e010de17190e7b36617c1707072f0"
+    "packaged_sha256": "a2d4c16913ad00f6623b7fe2169049a1816297712775684f447a6fa9b4443b41"
   },
   {
     "source": "ieee_draft_v1\\source_data\\fig_cost_comparisons.csv",
@@ -207,7 +207,7 @@
     "source": "ieee_draft_v1/plot_event_compact.py",
     "destination": "paper/plot_event_compact.py",
     "original_sha256": "060ea581eb256c69b3306e9c57390c627c34dba974f28a639023db49bf4721f1",
-    "packaged_sha256": "060ea581eb256c69b3306e9c57390c627c34dba974f28a639023db49bf4721f1"
+    "packaged_sha256": "3cc76d27546bfa00ead51cbb0638ada83c640c4fa6799e1b6fcf7769e69afefe"
   },
   {
     "source": "ieee_draft_v1/soften_cost_zero.py",
@@ -393,7 +393,7 @@
     "source": "figure_times_r1/redesign.py",
     "destination": "figure_times_r1/redesign.py",
     "original_sha256": "03f04c7dcc91c74df3f923a3868eecfc4e480b7d4cbb32141c2f221de4c8afa8",
-    "packaged_sha256": "b08ca2f6458ed24f79ffef6b78a99874841851ece8325ff52d66d23647bbbe85"
+    "packaged_sha256": "3d04fe6d3f63e7240e90462a7e108ae136849944ea1b1e56f79a9cbe5c6f46d0"
   },
   {
     "source": "figure_times_r1/font_config.py",
@@ -411,7 +411,7 @@
     "source": "figure_times_r1/event_chain_table.csv",
     "destination": "figure_times_r1/event_chain_table.csv",
     "original_sha256": "68adb8203194d2127dcc69e0eeb12df2a59c4285d5078358996a5d21a5f8a683",
-    "packaged_sha256": "a93b559782ae4e14700e50a70bf0f0691d7e010de17190e7b36617c1707072f0"
+    "packaged_sha256": "a2d4c16913ad00f6623b7fe2169049a1816297712775684f447a6fa9b4443b41"
   },
   {
     "source": "figure_times_r1/matrix_pairs.csv",

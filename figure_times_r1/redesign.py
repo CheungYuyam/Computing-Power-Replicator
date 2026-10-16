@@ -84,8 +84,8 @@ def matrix(out):
  fig.text(.105,.94,'Response timing across all 27 seed-17 pairs',fontsize=10,fontweight='bold')
  save(fig,out,'fig04_response_matrix');assert len(set(covered))==27;AUDIT['coverage']['fig04']=27
 def hour(s):
- offset=24 if s.startswith('次日 ') else 0
- h,m,sec=map(int,s.replace('次日 ','').split(':'));return offset+h+m/60+sec/3600
+ offset=24 if s.startswith('D+1 ') else 0
+ h,m,sec=map(int,s.replace('D+1 ','').split(':'));return offset+h+m/60+sec/3600
 
 def event(out):
  p=HERE/'event_chain_table.csv';track(p);rs=rows(p);assert len(rs)==4
@@ -94,7 +94,6 @@ def event(out):
  fields=['first_changed_report_delivery','first_probability_difference_at_revision','first_threshold_strategy_difference','first_routed_task_start']
  names=['Report available','Probability differs','Strategy differs','Next task starts','Power interval']
  colors=[BLUE,BLUE,ORANGE,TEAL,BLUE]
- stamp=lambda s:s.replace('次日 ','D+1 ')
  for i,row in enumerate(rs):
   c=i%2;rr=i//2;left=.14+c*.49;bottom=.65-rr*.45
   ax=fig.add_axes([left,bottom,.22,.23])
@@ -108,7 +107,7 @@ def event(out):
   assert abs((ts[3]-ts[2])*3600-float(row['revision_to_next_start_seconds']))<1e-8
   for j,k in enumerate(fields):
    ax.plot(ts[j],4-j,'o',color=colors[j],ms=4.5)
-   ax.text(1.06,4-j,stamp(row[k]),transform=ax.get_yaxis_transform(),va='center',fontsize=7.2,color=colors[j])
+   ax.text(1.06,4-j,row[k],transform=ax.get_yaxis_transform(),va='center',fontsize=7.2,color=colors[j])
   a,b=hour(row['first_power_bin_start']),hour(row['first_power_bin_end'])
   assert abs((b-a)*3600-300)<1e-8 and a<=ts[3]<b
   ax.plot([a,b],[0,0],lw=2.4,color=BLUE,solid_capstyle='butt')

@@ -1,8 +1,8 @@
-# Computing–Power Replicator
+# Computing-Power-Replicator
 
 Research code for **A Replicator Model Coupling Task Execution and Delayed Feedback on Accumulated Costs for Computing–Power Coordination**.
 
-模型跟踪任务执行、累计成本和延迟报告，研究任务分配调整何时形成站点功率响应。本仓库整理数值实验、工程仿真、事件核验及论文绘图代码，并保留论文使用的汇总结果。
+The model tracks task execution, accumulated costs and delayed reports to examine when assignment changes produce site power responses. This repository contains numerical experiments, engineering simulations, event audits, plotting code and the summary results used in the paper.
 
 ## Contents
 
