@@ -1,4 +1,4 @@
-# Packaging provenance
+# Packaging Provenance
 
 `source_manifest.json` maps original project-relative source paths to packaged files and records both hashes. Matching hashes indicate byte-for-byte copies. Different hashes may reflect extraction of reusable functions, removal of server deployment dependencies, portable paths, sanitized server path identifiers, or portable font setup.
 

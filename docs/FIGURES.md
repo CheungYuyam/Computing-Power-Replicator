@@ -1,6 +1,6 @@
-# Manuscript figures
+# Manuscript Figures
 
-| Figure | Export stem | Renderer |
+| Figure | Export Stem | Renderer |
 | --- | --- | --- |
 | 1 | fig01_framework | Final PDF supplied; current editable construction source not verified |
 | 2 | fig_delay_changes | paper/plot_report_delay_changes.py |

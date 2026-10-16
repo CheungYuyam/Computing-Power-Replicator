@@ -13,17 +13,17 @@
     {
       "path": "docs/DATA.md",
       "bytes": 1239,
-      "sha256": "d69afca39dbe44650e95c5aca0b5001161c7580cb9058824b12eeaeaef18cc8b"
+      "sha256": "316f1371ac20773f87e6da3bde53c8a6840edd065c7f3bb591171cb0d3c30a68"
     },
     {
       "path": "docs/FIGURES.md",
       "bytes": 1788,
-      "sha256": "8e20a64422fa4b8e5bc1b59b882da57cbcd39362572c14e1041daea64472436a"
+      "sha256": "b3971eb3f7719ecf298600346336800f7021947069a3d2c4aac3be702409da84"
     },
     {
       "path": "docs/VALIDATION.md",
       "bytes": 1031,
-      "sha256": "0c675168b18bc10dca034d3ff56801ffc74e6af37d6ea8227518964aa6ccbb2e"
+      "sha256": "054695f32ada780aaf941027b91fb8673bdff77e40a1d130a0453134386a7efc"
     },
     {
       "path": "dual_lag_v1/dc_grid.py",
@@ -413,7 +413,7 @@
     {
       "path": "provenance/README.md",
       "bytes": 1412,
-      "sha256": "a27eea908cb6b75ad0b92ec06d4f7377d9625425c22522d1cc4c2aa74e3f7a80"
+      "sha256": "4e61ccd3ad2b558629d5739db3a02abcd044ced60efd9813557ad1a388d3a911"
     },
     {
       "path": "provenance/source_manifest.json",
@@ -423,7 +423,7 @@
     {
       "path": "README.md",
       "bytes": 2703,
-      "sha256": "0efb91fd7e8b649264a316841c080ee6583ef9722f716fce6b16c986a9644fd2"
+      "sha256": "5a5ad8062d898b021cf69abf1c4ae84c693d745458a0ff7e20aaec58b3903908"
     },
     {
       "path": "requirements.txt",

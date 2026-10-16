@@ -18,7 +18,7 @@ Research code for **A Replicator Model Coupling Task Execution and Delayed Feedb
 | `data/calibration/` | Frozen PM100 calibration used by the engineering experiments |
 | `provenance/` | Source mapping, checksums and packaging notes |
 
-## Quick start
+## Quick Start
 
 Use Python 3.10 or later in a virtual environment:
 
@@ -41,6 +41,6 @@ The full engineering matrix contains three dates × five seeds × three communic
 
 See [figure mapping](docs/FIGURES.md), [verification scope](docs/VALIDATION.md) and [packaging changes](provenance/README.md).
 
-## Scope and licensing
+## Scope and Licensing
 
 Large raw datasets and full server trajectories are not bundled. Current figure exports and compact numerical results are included. Core tests have passed; a fresh complete engineering replay has not been performed during packaging. This repository is initially private. No new open-source license has been assigned; third-party datasets retain their original terms.

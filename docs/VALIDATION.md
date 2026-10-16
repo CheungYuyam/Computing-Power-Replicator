@@ -1,4 +1,4 @@
-# Verification during packaging
+# Verification During Packaging
 
 - Numerical suite: 18 tests passed.
 - Engineering suite: 15 tests passed.
