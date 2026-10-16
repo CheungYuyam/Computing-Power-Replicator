@@ -22,8 +22,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 1031,
-      "sha256": "054695f32ada780aaf941027b91fb8673bdff77e40a1d130a0453134386a7efc"
+      "bytes": 633,
+      "sha256": "81170cf69cf707d769f8b1a339e2d8f72d74ad75338b004ef505b71698921a4f"
     },
     {
       "path": "dual_lag_v1/dc_grid.py",
@@ -422,8 +422,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2703,
-      "sha256": "5a5ad8062d898b021cf69abf1c4ae84c693d745458a0ff7e20aaec58b3903908"
+      "bytes": 2626,
+      "sha256": "87f0b3ac21ed1cbb7c1dcf0a2264342e4d40593d87f6310a34dc65d9f22cc9f1"
     },
     {
       "path": "requirements.txt",

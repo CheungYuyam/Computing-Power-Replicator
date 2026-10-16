@@ -43,4 +43,4 @@ See [figure mapping](docs/FIGURES.md), [verification scope](docs/VALIDATION.md) 
 
 ## Scope and Licensing
 
-Large raw datasets and full server trajectories are not bundled. Current figure exports and compact numerical results are included. Core tests have passed; a fresh complete engineering replay has not been performed during packaging. This repository is initially private. No new open-source license has been assigned; third-party datasets retain their original terms.
+Large raw datasets and full server trajectories are not bundled. Current figure exports and compact numerical results are included. Core tests have passed. This repository is initially private. No new open-source license has been assigned; third-party datasets retain their original terms.

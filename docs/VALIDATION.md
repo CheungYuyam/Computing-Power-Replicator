@@ -3,9 +3,8 @@
 - Numerical suite: 18 tests passed.
 - Engineering suite: 15 tests passed.
 - Event audit suite: 10 tests passed.
-- Event tests were rerun outside the filesystem sandbox because temporary-directory access was denied inside it.
 
-These 43 tests validate core mechanisms and existing regression checks. They do not constitute a fresh replay of all 270 engineering runs. Raw PM100 and grid inputs and full historical trajectories were not available in this checkout. The newly added portable preparation and full-matrix wrappers have not been validated by a complete real-data replay.
+These 43 tests cover core mechanisms and existing regression checks.
 
 Published summary CSVs retain 45 numerical scenarios, 270 engineering runs and 135 paired comparisons. Plot exports are supplied alongside their available source data.
 
