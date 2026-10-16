@@ -1,0 +1,496 @@
+{
+  "status": "registered_execution_protocol",
+  "protocol": "REPLICATOR_EVOLUTION_MAINLINE_PROTOCOL_ZH.txt",
+  "horizon": 80.0,
+  "sample_interval": 0.05,
+  "execution_mean_base": [
+    [
+      1.0,
+      1.4
+    ],
+    [
+      2.0,
+      2.8
+    ]
+  ],
+  "payoff_reference_fixed": [
+    1.0,
+    2.0
+  ],
+  "beta": 0.2,
+  "evidence_decay": 0.5,
+  "snapshot_times": [
+    0,
+    1,
+    2,
+    5,
+    10,
+    20,
+    40,
+    80
+  ],
+  "tail_interval": [
+    60,
+    80
+  ],
+  "cross_assumption_equality_is_not_a_goal": true,
+  "scenarios": [
+    {
+      "case_id": "evolution_000",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_001",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_002",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_003",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_004",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_005",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_006",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_007",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_008",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 0.5,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_009",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_010",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_011",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_012",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_013",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_014",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_015",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_016",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_017",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 1.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_018",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_019",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_020",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_021",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_022",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_023",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_024",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.2,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_025",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_026",
+      "group": "E1_time_and_initial_share",
+      "execution_scale": 2.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.8,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_027",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_028",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 0.5,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_029",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 0.5,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_030",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_031",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_032",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 1.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_033",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_034",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 2.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_035",
+      "group": "E2_completion_payoff_approximation",
+      "execution_scale": 2.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": false,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_036",
+      "group": "E3_execution_inventory",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "stationary_execution_fresh_observer"
+    },
+    {
+      "case_id": "evolution_037",
+      "group": "E3_execution_inventory",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "stationary_execution_fresh_observer"
+    },
+    {
+      "case_id": "evolution_038",
+      "group": "E3_execution_inventory",
+      "execution_scale": 1.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 2,
+      "accumulated_payoff": true,
+      "initial_history": "stationary_execution_fresh_observer"
+    },
+    {
+      "case_id": "evolution_039",
+      "group": "E4_duration_shape",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 1,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_040",
+      "group": "E4_duration_shape",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 4,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_041",
+      "group": "E4_duration_shape",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 1,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_042",
+      "group": "E4_duration_shape",
+      "execution_scale": 1.0,
+      "feedback_mean": 0.5,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 4,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_043",
+      "group": "E4_duration_shape",
+      "execution_scale": 1.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 1,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    },
+    {
+      "case_id": "evolution_044",
+      "group": "E4_duration_shape",
+      "execution_scale": 1.0,
+      "feedback_mean": 2.0,
+      "initial_strategy0_fraction": 0.5,
+      "execution_stages": 4,
+      "accumulated_payoff": true,
+      "initial_history": "fresh"
+    }
+  ],
+  "resource_limit": {
+    "cpus": 2,
+    "memory_gb": 4,
+    "minutes": 60,
+    "gpu": 0
+  },
+  "parent_normalized_sha256": "600e64241a9f152a5ad06cb2c2c610a48c9e7eb4dcfc4129bda3baae0fc69d60"
+}

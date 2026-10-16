@@ -1,0 +1,35 @@
+{
+  "classes": {
+    "0": {
+      "count": 12975,
+      "mean_runtime": 1171.573641618497,
+      "mean_energy_kwh": 2.717117677585099,
+      "median_resources": [
+        1.0,
+        24.0,
+        0.0
+      ]
+    },
+    "1": {
+      "count": 35821,
+      "mean_runtime": 5926.790904776528,
+      "mean_energy_kwh": 4.356005093768708,
+      "median_resources": [
+        1.0,
+        64.0,
+        4.0
+      ]
+    }
+  },
+  "capacity_per_center": [
+    256,
+    32768,
+    1024
+  ],
+  "power_mw_per_w": 0.00018912613845345876,
+  "fit_power95_w": 264373.8216666666,
+  "fit_cutoff": "2020-07-16",
+  "task_types": "GPU requested vs CPU-only",
+  "businesses_per_type": 32,
+  "capacity_rule": "max(fit max request, 8*fit request q95), componentwise; synthetic homogeneous centers"
+}

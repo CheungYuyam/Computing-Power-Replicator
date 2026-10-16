@@ -1,0 +1,422 @@
+[
+  {
+    "source": "replicator_evolution_v1r2/protocol.json",
+    "destination": "numerical/protocol.json",
+    "original_sha256": "9c742d61c30520299f56bdd1de37d487e96b9367ab7a6538581eb8a0a3b97d26",
+    "packaged_sha256": "9c742d61c30520299f56bdd1de37d487e96b9367ab7a6538581eb8a0a3b97d26"
+  },
+  {
+    "source": "replicator_evolution_v1r2/test_evolution.py",
+    "destination": "numerical/test_evolution.py",
+    "original_sha256": "e4979aa1be3a4810c1cbd1a93ede7dafed1c21fe70d2be04360f87813fdb7cd7",
+    "packaged_sha256": "e4979aa1be3a4810c1cbd1a93ede7dafed1c21fe70d2be04360f87813fdb7cd7"
+  },
+  {
+    "source": "replicator_evolution_v1r2/evolution.py",
+    "destination": "numerical/evolution.py",
+    "original_sha256": "de4c81d238ffc3fb1291c51368b13f40a5863ce7b81ab3af66bd58026f50427f",
+    "packaged_sha256": "3bdaba0301603c1f62d74a4d2f5fd7cc4f4160ad2031b6be99f25b8ea6dae790"
+  },
+  {
+    "source": "dual_lag_v1/theory.py",
+    "destination": "dual_lag_v1/theory.py",
+    "original_sha256": "600e64241a9f152a5ad06cb2c2c610a48c9e7eb4dcfc4129bda3baae0fc69d60",
+    "packaged_sha256": "600e64241a9f152a5ad06cb2c2c610a48c9e7eb4dcfc4129bda3baae0fc69d60"
+  },
+  {
+    "source": "dual_lag_v1/plant.py",
+    "destination": "dual_lag_v1/plant.py",
+    "original_sha256": "a504411f12356bd0b87d3e09c5d977a12407d690fdaf038a79e7268f337a08ed",
+    "packaged_sha256": "a504411f12356bd0b87d3e09c5d977a12407d690fdaf038a79e7268f337a08ed"
+  },
+  {
+    "source": "dual_lag_v1/dc_grid.py",
+    "destination": "dual_lag_v1/dc_grid.py",
+    "original_sha256": "bcb5264698997c5b3232bf5ddb6a48fd07de7dc8d0a640b777ff3b38b3911067",
+    "packaged_sha256": "bcb5264698997c5b3232bf5ddb6a48fd07de7dc8d0a640b777ff3b38b3911067"
+  },
+  {
+    "source": "replicator_engineering_v1/engine.py",
+    "destination": "engineering/engine.py",
+    "original_sha256": "a6f5c0161625eca9d77e7cd4442351fd91e2aa045e63f28fcd4fd0aaeff55c4a",
+    "packaged_sha256": "51acf41417141c795ae82698293fe630e5d824f9f376ccff580735b2e59bd494"
+  },
+  {
+    "source": "replicator_engineering_repeats_v1/test_engine.py",
+    "destination": "engineering/test_engine.py",
+    "original_sha256": "72159294e567a238bfd198e1ac03f0872ebb4bf4727ad50f64f4742188de765c",
+    "packaged_sha256": "72159294e567a238bfd198e1ac03f0872ebb4bf4727ad50f64f4742188de765c"
+  },
+  {
+    "source": "replicator_engineering_repeats_v1/analysis.py",
+    "destination": "engineering/analysis.py",
+    "original_sha256": "0b9e4936d2d71de1d5bee0ccc849d074d2b0639d0bad72759ef063435a4ff201",
+    "packaged_sha256": "0b9e4936d2d71de1d5bee0ccc849d074d2b0639d0bad72759ef063435a4ff201"
+  },
+  {
+    "source": "dual_lag_v1/reports_386a63de2973/prepared/fit_summary.json",
+    "destination": "data/calibration/fit_summary.json",
+    "original_sha256": "e14645e8e07119baff0e35f446dc4bb9fb06af14707496778c5cd116c4a4df96",
+    "packaged_sha256": "e14645e8e07119baff0e35f446dc4bb9fb06af14707496778c5cd116c4a4df96"
+  },
+  {
+    "source": "replicator_engineering_event_chain/test_evolution.py",
+    "destination": "event_audit/test_evolution.py",
+    "original_sha256": "d18e75ac29c1f9f50ec84422eab7bd3210c014765ea69b1f99f85ad3a9824651",
+    "packaged_sha256": "d18e75ac29c1f9f50ec84422eab7bd3210c014765ea69b1f99f85ad3a9824651"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\case_summary.csv",
+    "destination": "paper\\source_data\\case_summary.csv",
+    "original_sha256": "0a9712fcfb5df6512e607d81d40551ecdd4fd36fee719e9ded32cd4a0bf07135",
+    "packaged_sha256": "0a9712fcfb5df6512e607d81d40551ecdd4fd36fee719e9ded32cd4a0bf07135"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\contrasts.csv",
+    "destination": "paper\\source_data\\contrasts.csv",
+    "original_sha256": "0dcfc6ca9c091b13929db9eced2e0d747b69013b2a177c4fc9cb488095722fd9",
+    "packaged_sha256": "0dcfc6ca9c091b13929db9eced2e0d747b69013b2a177c4fc9cb488095722fd9"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\engineering_all_135_pairs.csv",
+    "destination": "paper\\source_data\\engineering_all_135_pairs.csv",
+    "original_sha256": "5a8667d53d7a16b944a59957313228a5143541923de31726fc3dc04e87a86a97",
+    "packaged_sha256": "b2f662ef8107563194156fb5197eb10e26311472a89a3f37905a6d18423abcab"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\engineering_all_270_runs.csv",
+    "destination": "paper\\source_data\\engineering_all_270_runs.csv",
+    "original_sha256": "6b810f042316daebf506da6f8ad55db65080bb45499894fb26636d61348d2ddd",
+    "packaged_sha256": "e868d68ea8d24b447dd870bb57e07caacf0ee4bdf114348fb9526cd967100a13"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\event_chain_table.csv",
+    "destination": "paper\\source_data\\event_chain_table.csv",
+    "original_sha256": "45a65d8390fec9e33d2a9fda1a1f9db45430234feae0baa5fd4b35c959b69c46",
+    "packaged_sha256": "a93b559782ae4e14700e50a70bf0f0691d7e010de17190e7b36617c1707072f0"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\fig_cost_comparisons.csv",
+    "destination": "paper\\source_data\\fig_cost_comparisons.csv",
+    "original_sha256": "2cda7c044726d252c58555248d89b71993218c53778812bf99b90b79c7d210c1",
+    "packaged_sha256": "2cda7c044726d252c58555248d89b71993218c53778812bf99b90b79c7d210c1"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\fig_stage_count.csv",
+    "destination": "paper\\source_data\\fig_stage_count.csv",
+    "original_sha256": "71aa4b295cd86d96907ee357fa8a494d21cbbbf5bce12e3d3682b9f10b952686",
+    "packaged_sha256": "71aa4b295cd86d96907ee357fa8a494d21cbbbf5bce12e3d3682b9f10b952686"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\initial_progress_changes.csv",
+    "destination": "paper\\source_data\\initial_progress_changes.csv",
+    "original_sha256": "5accf3806b2b406861b0cb43cd45e854c8024a269d6afeb2c87946ed9f10aa12",
+    "packaged_sha256": "5accf3806b2b406861b0cb43cd45e854c8024a269d6afeb2c87946ed9f10aa12"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\matrix_pairs.csv",
+    "destination": "paper\\source_data\\matrix_pairs.csv",
+    "original_sha256": "30507b1eb9ccd0e4dafe2895c2fd5da6d3038273dfc8722fbf327c87c1a945f2",
+    "packaged_sha256": "89c170088f77020d6a7cb5332fe79827afc345128e59bfb404806f4c3b8d68df"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\matrix_results.csv",
+    "destination": "paper\\source_data\\matrix_results.csv",
+    "original_sha256": "7cc88562bc71e6dafe321346838f6c3152dec4c2293c12f593e49f39efffce0e",
+    "packaged_sha256": "b4337d92cf9f4a985dd7648d5cb5ea2d8be9d695cc68afa898d05975d5a9d542"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\report_delay_all_27.csv",
+    "destination": "paper\\source_data\\report_delay_all_27.csv",
+    "original_sha256": "7313e4670e46265f86346a36fb99a10f1e1547d70e41661afb1f2d34015b07a0",
+    "packaged_sha256": "92267cd04209f5969d596e621d7f4cf329210e0db8eda7d579dcadf6c4ebe4c7"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\report_delay_changes.csv",
+    "destination": "paper\\source_data\\report_delay_changes.csv",
+    "original_sha256": "39484ed72018ca4624f1d62fa9924cd35433f34abafacbe69843103d45fd39af",
+    "packaged_sha256": "39484ed72018ca4624f1d62fa9924cd35433f34abafacbe69843103d45fd39af"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\snapshots.csv",
+    "destination": "paper\\source_data\\snapshots.csv",
+    "original_sha256": "2e8baa9a16f2e5a83c8aca5d71b747595db55b5c94cf0acfdab9391314d0da62",
+    "packaged_sha256": "2e8baa9a16f2e5a83c8aca5d71b747595db55b5c94cf0acfdab9391314d0da62"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\terminal_service.csv",
+    "destination": "paper\\source_data\\terminal_service.csv",
+    "original_sha256": "92df4dd4d1f03a2f664e81fde241d596206f7ff9000824d8025913abe3d98dea",
+    "packaged_sha256": "f82d04d04f21f63a2f1f8cb39ba77655030b93dc5a10fa9ec87ce65a8f49653a"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\repeats_fdd26d2c7684\\matrix_pairs.csv",
+    "destination": "paper\\source_data\\repeats_fdd26d2c7684\\matrix_pairs.csv",
+    "original_sha256": "2bbe269eea75fda0cbfe40feb8c2c4356677a7ae2b4028e287f87b8f7877494c",
+    "packaged_sha256": "334486237f708fdc91d7e0e8977609cce55f2f3c94d254068debca8fe123dce2"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\repeats_fdd26d2c7684\\matrix_results.csv",
+    "destination": "paper\\source_data\\repeats_fdd26d2c7684\\matrix_results.csv",
+    "original_sha256": "257331c977284414f5fa26828377d7778f946e59967942dda667190db98b1bc9",
+    "packaged_sha256": "05bf3228a2632c0437c982c9e09198ab7cc718a448133d05b3664cf416409ff1"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\repeats_fdd26d2c7684\\path_snapshots.csv",
+    "destination": "paper\\source_data\\repeats_fdd26d2c7684\\path_snapshots.csv",
+    "original_sha256": "1f2ea715ba7598cfef44957a181a700c5c1e7a7c36f9fde0d103280ae54bfe62",
+    "packaged_sha256": "1f2ea715ba7598cfef44957a181a700c5c1e7a7c36f9fde0d103280ae54bfe62"
+  },
+  {
+    "source": "ieee_draft_v1\\source_data\\repeats_fdd26d2c7684\\timing_contrasts.csv",
+    "destination": "paper\\source_data\\repeats_fdd26d2c7684\\timing_contrasts.csv",
+    "original_sha256": "1de569a66045133b007aff179519d494057059289a5d02121766ec5744553357",
+    "packaged_sha256": "1de569a66045133b007aff179519d494057059289a5d02121766ec5744553357"
+  },
+  {
+    "source": "ieee_draft_v1/plot_report_delay_changes.py",
+    "destination": "paper/plot_report_delay_changes.py",
+    "original_sha256": "d0fb889ee1df52a4560a431e959fba2460b46a24f5ab627c5645bb5fae54421e",
+    "packaged_sha256": "9a8452b9e2b019b85284ec88a807b45504d3bee0d26906e3770aff030a0dc3f5"
+  },
+  {
+    "source": "ieee_draft_v1/plot_initial_progress.py",
+    "destination": "paper/plot_initial_progress.py",
+    "original_sha256": "9a99ab38109f8eca4f98d671a2234d00b8d166f3e5766c03b2b06846543bb9c7",
+    "packaged_sha256": "c407365d09a77824f5c7e8a9da9b25532330bcdb5ef22e954500a9379c21863b"
+  },
+  {
+    "source": "ieee_draft_v1/plot_stage_count.py",
+    "destination": "paper/plot_stage_count.py",
+    "original_sha256": "1c576fdbda3c73a2637d975e2178d38b2616284751fa7023b31f80a94d244795",
+    "packaged_sha256": "f7d715c110e0ba5b09020df49712f2ca0fd13bc7b17f4356c636f10425699605"
+  },
+  {
+    "source": "ieee_draft_v1/plot_remaining_results.py",
+    "destination": "paper/plot_remaining_results.py",
+    "original_sha256": "7db35d7c0e09883d8a61d734d1fc91eaf0bae244f3c535468e0aafb09f4e1229",
+    "packaged_sha256": "7674fbb0195f38f361a0b75a4ea4e0433a27f0f82a5431fd1c0e7c8fbebda4f2"
+  },
+  {
+    "source": "ieee_draft_v1/plot_energy_all_seeds.py",
+    "destination": "paper/plot_energy_all_seeds.py",
+    "original_sha256": "aa2dd80a517cedeb658e229f6dc4667b5519f074b4778683ddc7dd7dedc18862",
+    "packaged_sha256": "968a67d457431951331abe48d219e83de271bffd9d1963e98aca9153daa770ea"
+  },
+  {
+    "source": "ieee_draft_v1/plot_event_compact.py",
+    "destination": "paper/plot_event_compact.py",
+    "original_sha256": "060ea581eb256c69b3306e9c57390c627c34dba974f28a639023db49bf4721f1",
+    "packaged_sha256": "060ea581eb256c69b3306e9c57390c627c34dba974f28a639023db49bf4721f1"
+  },
+  {
+    "source": "ieee_draft_v1/soften_cost_zero.py",
+    "destination": "paper/soften_cost_zero.py",
+    "original_sha256": "5c521e1f9a8ad9a3c49d0793dd5e40cc2b3e03a26be9f822ffb59fc61c179904",
+    "packaged_sha256": "5c521e1f9a8ad9a3c49d0793dd5e40cc2b3e03a26be9f822ffb59fc61c179904"
+  },
+  {
+    "source": "ieee_draft_v1/restyle_vector_titles.py",
+    "destination": "paper/restyle_vector_titles.py",
+    "original_sha256": "711f60d4def9e5600ce06c1294f93a22452f12ff24de5614820759286058dda2",
+    "packaged_sha256": "711f60d4def9e5600ce06c1294f93a22452f12ff24de5614820759286058dda2"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig01_framework.pdf",
+    "destination": "paper/figures/redesigned/fig01_framework.pdf",
+    "original_sha256": "ae4e80e6e368a017d990d43692a66c95bd88589c96b23be91be741f514b34f85",
+    "packaged_sha256": "ae4e80e6e368a017d990d43692a66c95bd88589c96b23be91be741f514b34f85"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig02_cost_formation.pdf",
+    "destination": "paper/figures/redesigned/fig02_cost_formation.pdf",
+    "original_sha256": "7d0c3d29aa07acd06b71632cdaf00f9d8f1cdfb46e14a38b633e5709467149a3",
+    "packaged_sha256": "7d0c3d29aa07acd06b71632cdaf00f9d8f1cdfb46e14a38b633e5709467149a3"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig02_cost_formation.png",
+    "destination": "paper/figures/redesigned/fig02_cost_formation.png",
+    "original_sha256": "b6eb24dd9d0eec80d6363b330768ea64319d33537696c614547ba63cd7319b4a",
+    "packaged_sha256": "b6eb24dd9d0eec80d6363b330768ea64319d33537696c614547ba63cd7319b4a"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig02_cost_formation.svg",
+    "destination": "paper/figures/redesigned/fig02_cost_formation.svg",
+    "original_sha256": "9d42e1447498a6deaff76dc6a429fabd658b6900ad5e3c64bcf7b810562834dc",
+    "packaged_sha256": "9d42e1447498a6deaff76dc6a429fabd658b6900ad5e3c64bcf7b810562834dc"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig03_engineering_paths.pdf",
+    "destination": "paper/figures/redesigned/fig03_engineering_paths.pdf",
+    "original_sha256": "68412499d099125435d105c5d68e5feabf95da14899ab8ef345a82a3276aec94",
+    "packaged_sha256": "68412499d099125435d105c5d68e5feabf95da14899ab8ef345a82a3276aec94"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig03_engineering_paths.png",
+    "destination": "paper/figures/redesigned/fig03_engineering_paths.png",
+    "original_sha256": "aa2ccd74942099f66cff0dd431c7af907483e0c1ba98e6535fcef3b5d6f8142a",
+    "packaged_sha256": "aa2ccd74942099f66cff0dd431c7af907483e0c1ba98e6535fcef3b5d6f8142a"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig03_engineering_paths.svg",
+    "destination": "paper/figures/redesigned/fig03_engineering_paths.svg",
+    "original_sha256": "5c1dfc8bd881a5454ef1667c108109a377366a19d5a8911b67c37d9826116c5c",
+    "packaged_sha256": "5c1dfc8bd881a5454ef1667c108109a377366a19d5a8911b67c37d9826116c5c"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig05_event_chain.pdf",
+    "destination": "paper/figures/redesigned/fig05_event_chain.pdf",
+    "original_sha256": "0beaf8699449a3bd28c6cd758fa2a598834bba81f37c4d9f00dfb05af0ef8601",
+    "packaged_sha256": "0beaf8699449a3bd28c6cd758fa2a598834bba81f37c4d9f00dfb05af0ef8601"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig05_event_chain.png",
+    "destination": "paper/figures/redesigned/fig05_event_chain.png",
+    "original_sha256": "fde91e7acea0849671c8456af5fb037acdd69aa0f8ced2c2d3cda157f66fc05f",
+    "packaged_sha256": "fde91e7acea0849671c8456af5fb037acdd69aa0f8ced2c2d3cda157f66fc05f"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig05_event_chain.svg",
+    "destination": "paper/figures/redesigned/fig05_event_chain.svg",
+    "original_sha256": "585466ef92d7ead48b56421cbcc928a04b6f39e095ec08ab15e1610f734835ab",
+    "packaged_sha256": "585466ef92d7ead48b56421cbcc928a04b6f39e095ec08ab15e1610f734835ab"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_cost_comparisons.pdf",
+    "destination": "paper/figures/redesigned/fig_cost_comparisons.pdf",
+    "original_sha256": "66a9330b951215a43a000e31371742d8772c0009130d932692aa61180e2be27a",
+    "packaged_sha256": "66a9330b951215a43a000e31371742d8772c0009130d932692aa61180e2be27a"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_cost_comparisons.png",
+    "destination": "paper/figures/redesigned/fig_cost_comparisons.png",
+    "original_sha256": "20a0f614567a66692edb231199a75e46357d5d9744091894d65b07ce3db432f3",
+    "packaged_sha256": "20a0f614567a66692edb231199a75e46357d5d9744091894d65b07ce3db432f3"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_cost_comparisons.svg",
+    "destination": "paper/figures/redesigned/fig_cost_comparisons.svg",
+    "original_sha256": "dd3b16c1d0c2d390cc26f09f739e76be98935c5f5bc15e3e26e23d0ae4b67a44",
+    "packaged_sha256": "dd3b16c1d0c2d390cc26f09f739e76be98935c5f5bc15e3e26e23d0ae4b67a44"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_delay_changes.pdf",
+    "destination": "paper/figures/redesigned/fig_delay_changes.pdf",
+    "original_sha256": "13e7799e6f2e55e0b587922c7697db8fb4f985f375ebf6e6c2971b658dca73cd",
+    "packaged_sha256": "13e7799e6f2e55e0b587922c7697db8fb4f985f375ebf6e6c2971b658dca73cd"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_delay_changes.png",
+    "destination": "paper/figures/redesigned/fig_delay_changes.png",
+    "original_sha256": "672c29cb7e795f4071c8fcf4aae80148b184d9e80eec7e75e8b7c881e01dc892",
+    "packaged_sha256": "672c29cb7e795f4071c8fcf4aae80148b184d9e80eec7e75e8b7c881e01dc892"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_delay_changes.svg",
+    "destination": "paper/figures/redesigned/fig_delay_changes.svg",
+    "original_sha256": "1627677f7496171ed800a4bf15e379417b1a737ec479f83f418002fa84fb7459",
+    "packaged_sha256": "1627677f7496171ed800a4bf15e379417b1a737ec479f83f418002fa84fb7459"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_energy_all_seeds.pdf",
+    "destination": "paper/figures/redesigned/fig_energy_all_seeds.pdf",
+    "original_sha256": "d57312d31d2cc7ae2bc88eef011722833b7bcb4b9aecd0870a986fe7f0151ec3",
+    "packaged_sha256": "d57312d31d2cc7ae2bc88eef011722833b7bcb4b9aecd0870a986fe7f0151ec3"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_energy_all_seeds.png",
+    "destination": "paper/figures/redesigned/fig_energy_all_seeds.png",
+    "original_sha256": "324d000e4572fb056bb670df7ae01a34559015ba8be49f5a8e778241f86e6a3a",
+    "packaged_sha256": "324d000e4572fb056bb670df7ae01a34559015ba8be49f5a8e778241f86e6a3a"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_energy_all_seeds.svg",
+    "destination": "paper/figures/redesigned/fig_energy_all_seeds.svg",
+    "original_sha256": "cc64ab850eba0a3151c939a73e51e65e4c0d0c50c421760313e7d56ac398ff61",
+    "packaged_sha256": "cc64ab850eba0a3151c939a73e51e65e4c0d0c50c421760313e7d56ac398ff61"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_initial_progress.pdf",
+    "destination": "paper/figures/redesigned/fig_initial_progress.pdf",
+    "original_sha256": "629d308578baefce024e9a1f00b0fea28834e1201cb810e011997fdbc5ae6a44",
+    "packaged_sha256": "629d308578baefce024e9a1f00b0fea28834e1201cb810e011997fdbc5ae6a44"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_initial_progress.png",
+    "destination": "paper/figures/redesigned/fig_initial_progress.png",
+    "original_sha256": "e5dd5674e5a4e178d5303c06787e79685b863c7c1a176c600af506a48ae61165",
+    "packaged_sha256": "e5dd5674e5a4e178d5303c06787e79685b863c7c1a176c600af506a48ae61165"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_initial_progress.svg",
+    "destination": "paper/figures/redesigned/fig_initial_progress.svg",
+    "original_sha256": "d1f259909846acc513b9ad17940b5e246c0d75b2b6988321e4c849ea08c1d971",
+    "packaged_sha256": "d1f259909846acc513b9ad17940b5e246c0d75b2b6988321e4c849ea08c1d971"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_response_all_seeds.pdf",
+    "destination": "paper/figures/redesigned/fig_response_all_seeds.pdf",
+    "original_sha256": "bd0aefaca0ad28dddaeeb9c616a18545c9e04f193ef0fa9efe06bfc393ff34e3",
+    "packaged_sha256": "bd0aefaca0ad28dddaeeb9c616a18545c9e04f193ef0fa9efe06bfc393ff34e3"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_response_all_seeds.png",
+    "destination": "paper/figures/redesigned/fig_response_all_seeds.png",
+    "original_sha256": "e29ce44cf1bb7549e44ccb02ed928978ec2528b29d0f65485fc8fda2afaaa578",
+    "packaged_sha256": "e29ce44cf1bb7549e44ccb02ed928978ec2528b29d0f65485fc8fda2afaaa578"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_response_all_seeds.svg",
+    "destination": "paper/figures/redesigned/fig_response_all_seeds.svg",
+    "original_sha256": "0ba04f3178256eb1f3bc182ed52f82bccb219d83a84f46bc799a18902445d90c",
+    "packaged_sha256": "0ba04f3178256eb1f3bc182ed52f82bccb219d83a84f46bc799a18902445d90c"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_stage_count.pdf",
+    "destination": "paper/figures/redesigned/fig_stage_count.pdf",
+    "original_sha256": "831fec48eb0c063482c4fe523d56a97c06a2f7d5ee8b1e430a06bb37718d1dc6",
+    "packaged_sha256": "831fec48eb0c063482c4fe523d56a97c06a2f7d5ee8b1e430a06bb37718d1dc6"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_stage_count.png",
+    "destination": "paper/figures/redesigned/fig_stage_count.png",
+    "original_sha256": "f6b27560bde75e93ee0a29836d8bf00841856b29e04b41c3530a526f6125d6c2",
+    "packaged_sha256": "f6b27560bde75e93ee0a29836d8bf00841856b29e04b41c3530a526f6125d6c2"
+  },
+  {
+    "source": "ieee_draft_v1\\figures\\redesigned\\fig_stage_count.svg",
+    "destination": "paper/figures/redesigned/fig_stage_count.svg",
+    "original_sha256": "f8e6b55b4df232bfd35945d2e6d3b5351973955f6209c265c0c1d7cdb4e14014",
+    "packaged_sha256": "f8e6b55b4df232bfd35945d2e6d3b5351973955f6209c265c0c1d7cdb4e14014"
+  },
+  {
+    "source": "figure_times_r1/redesign.py",
+    "destination": "figure_times_r1/redesign.py",
+    "original_sha256": "03f04c7dcc91c74df3f923a3868eecfc4e480b7d4cbb32141c2f221de4c8afa8",
+    "packaged_sha256": "b08ca2f6458ed24f79ffef6b78a99874841851ece8325ff52d66d23647bbbe85"
+  },
+  {
+    "source": "figure_times_r1/font_config.py",
+    "destination": "figure_times_r1/font_config.py",
+    "original_sha256": "de0bda5bb2651ca7b044dc55817aeed6947b6045f12c9ae59d7aa746f2361ba0",
+    "packaged_sha256": "1b7c7ce5ce3be18efc69ff6c2a5a794f9d7793df071b8e44961a416ea9d52884"
+  },
+  {
+    "source": "figure_times_r1/sources.json",
+    "destination": "figure_times_r1/sources.json",
+    "original_sha256": "28766aca4a1d228d63b9c06006ed0c0693a86c0ffec4d255ccce18185ab15e5e",
+    "packaged_sha256": "3425d6d6ce01d5061631376beb2a602209c1ef643d2d9fb378a1724fe5309215"
+  },
+  {
+    "source": "figure_times_r1/event_chain_table.csv",
+    "destination": "figure_times_r1/event_chain_table.csv",
+    "original_sha256": "68adb8203194d2127dcc69e0eeb12df2a59c4285d5078358996a5d21a5f8a683",
+    "packaged_sha256": "a93b559782ae4e14700e50a70bf0f0691d7e010de17190e7b36617c1707072f0"
+  },
+  {
+    "source": "figure_times_r1/matrix_pairs.csv",
+    "destination": "figure_times_r1/matrix_pairs.csv",
+    "original_sha256": "5e6d8b36134feea369986d4483fbd05701ba839a500d19cb527b14ec21393867",
+    "packaged_sha256": "d04e55cf5ca1b739860ed9e8847408cb786daac9315405ad29b05712e759c3b3"
+  }
+]
