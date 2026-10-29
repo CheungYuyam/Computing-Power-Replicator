@@ -9,3 +9,7 @@ The engineering package validates bundled parent files using `dual_lag_v1/SHA256
 Historical server deployment, SSH and credential-handling scripts are intentionally excluded. Absolute server identifiers in CSV provenance columns are replaced with logical `release://` identifiers. The manuscript source is maintained separately and was not changed by this packaging operation.
 
 `package_manifest.json` inventories packaged deliverables, excluding generated runs, bytecode and the inventory itself.
+
+## October 29 Systems Update
+
+`systems_source_manifest.json` maps the new code, protocols, compact results and approved figures to the research sources. Main, initialization, same-rule mechanisms and structure code remain separate frozen families. Structure protocols are extracted from executed run records. Figure helpers use portable paths and bundled inputs. Original historical package mappings are retained above. The current manuscript and submission correspondence are not uploaded. `systems_validation.json` distinguishes locally repeated package checks from historical server evidence.

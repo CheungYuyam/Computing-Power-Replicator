@@ -1,0 +1,23 @@
+\par\medskip\Needspace{226pt}
+\noindent\begin{minipage}{\textwidth}
+\centering\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Stream and Admission Sensitivity Relative to Fixed Allocation}\label{tab:structural-sensitivity}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrr@{}}
+\toprule
+Date & Rule & Comp. & Wait & Energy & Gen. cost\\
+\midrule
+07-27 & E/F & +0.028 & -0.211 & +0.308 & +0.274\\
+07-27 & E/B & -0.015 & +0.100 & +0.047 & +0.383\\
+07-27 & L/F & +0.127 & -0.260 & +0.401 & +5.286\\
+07-27 & L/B & -0.012 & +0.301 & +0.604 & +2.607\\
+08-05 & E/F & -0.727 & -19.584 & +2.492 & +21.972\\
+08-05 & E/B & +0.277 & -0.117 & +2.611 & +23.727\\
+08-05 & L/F & -0.051 & +3.334 & +0.344 & -8.716\\
+08-05 & L/B & +0.799 & -5.026 & +1.399 & +0.149\\
+08-21 & E/F & +0.000 & -0.160 & +0.001 & -6.441\\
+08-21 & E/B & +0.000 & +0.026 & +0.065 & +1.399\\
+08-21 & L/F & -0.002 & +0.559 & -0.023 & +6.735\\
+08-21 & L/B & +0.004 & +0.250 & -0.010 & +1.371\\
+\bottomrule\end{tabular*}
+\par\smallskip\raggedright Three-seed means, capacity-proportional initialization, staggered releases, signal off. E/L: earliest/latest reusable stream. F: first-come, first-served without backfilling. B: earliest queued task whose resources fit. Differences are accumulated-cost feedback minus fixed allocation. Units and periods follow Table~\ref{tab:app-pressure}.
+\end{minipage}\par\medskip

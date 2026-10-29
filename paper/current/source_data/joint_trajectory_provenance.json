@@ -1,0 +1,99 @@
+{
+  "selection": {
+    "bundle": "001",
+    "date": "2020-07-27",
+    "seed": 17,
+    "phase": "stagger",
+    "arms": [
+      "reported",
+      "fixed"
+    ],
+    "signal": "off",
+    "hours": [
+      24,
+      48
+    ]
+  },
+  "sources": [
+    {
+      "path": "project://\\large_system_v3\\results\\e02728b10095\\001\\reported\\trace.jsonl.gz",
+      "sha256": "87d4a6c866faddfbf7724293f5551562f181d1d28fa6e942f85daca11d9bd2ad"
+    },
+    {
+      "path": "project://\\large_system_v3\\results\\e02728b10095\\001\\fixed\\trace.jsonl.gz",
+      "sha256": "da841587d434e8f8e72c6614022c66d75cec0992a281804096bc11ddda267eab"
+    }
+  ],
+  "definitions": {
+    "shares": "sum at sites 0 and 3 within each class; percentage point difference",
+    "queue": "sum of endpoint waiting_by_site within groups",
+    "power": "sum of interval-average site power within groups",
+    "generation_cost": "cumulative difference in generation_cost_per_h * interval hours; excludes tariff transfers"
+  },
+  "end_generation_cost_difference": 228.23673015974416,
+  "rows": 288,
+  "summary_reconciliation": {
+    "from_intervals": 228.23673015974416,
+    "from_frozen_metrics": 228.236730159726,
+    "tolerance": 1e-06
+  },
+  "final_endpoint": {
+    "start_h": 47.916666666666664,
+    "end_h": 48.0,
+    "cpu_small_share_delta_pp": -8.613782051282053,
+    "gpu_small_share_delta_pp": -3.877314814814814,
+    "small_queue_delta": -8429,
+    "small_power_delta_mw": 0.4538185532286074,
+    "other_queue_delta": 869,
+    "other_power_delta_mw": 2.3254977982547924,
+    "cumulative_generation_cost_delta": 228.23673015974416
+  },
+  "service_differences": {
+    "completion_eval_fraction": 0.0475020867256879,
+    "restricted_wait_s": -2426.63532875485,
+    "evaluation_it_mwh": 13.28428397180005
+  },
+  "case_metric_keys": [
+    "case",
+    "bundle",
+    "group",
+    "date",
+    "seed",
+    "phase",
+    "sites",
+    "replicas",
+    "capacity_ratio",
+    "total_nodes",
+    "arm",
+    "pulse",
+    "source_tasks",
+    "task_instances",
+    "streams",
+    "cohort_jobs",
+    "completion_eval_fraction",
+    "completed_eval_node_hours",
+    "completion_tail_fraction",
+    "restricted_wait_s",
+    "restricted_response_s",
+    "predecessor_wait_s",
+    "post_predecessor_wait_s",
+    "evaluation_it_mwh",
+    "evaluation_bill",
+    "evaluation_generation_cost",
+    "evaluation_curtailment_mwh",
+    "evaluation_shed_mwh",
+    "evaluation_spill_mwh",
+    "evaluation_max_line_loading",
+    "peak_it_mw",
+    "peak_it_share",
+    "negative_price_intervals",
+    "clipped_reports",
+    "clipped_fraction",
+    "switches",
+    "waiting_end",
+    "running_end",
+    "controller_seconds",
+    "case_seconds",
+    "lmp_site_spread_mean"
+  ]
+}

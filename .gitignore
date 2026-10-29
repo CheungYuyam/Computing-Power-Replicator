@@ -7,3 +7,6 @@ data/original-layout/
 runs/
 *.log
 .env
+paper/current/qa/
+paper/current/figure6_options_20261028/
+paper/current/figure7_options_20261028/

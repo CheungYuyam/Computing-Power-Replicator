@@ -1,0 +1,228 @@
+{
+  "frozen_before_held_out_results": true,
+  "dates": [
+    "2020-07-27",
+    "2020-08-05",
+    "2020-08-21"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "calibration": "Before July20; unchanged across all held-out dates",
+  "source_hours": 47,
+  "warmup_hours": 24,
+  "evaluation_hours": 24,
+  "tail_hours": 24,
+  "phase_rule": "Each replica has constant offset 3600*r/(replicas-1); no wrap or dropped last-hour jobs",
+  "primary_unit": "date-window x controller-seed; synthetic task copies are not independent samples",
+  "analysis": "Descriptive paired differences; seeds summarized within each date first; report all dates and failures",
+  "bundles": [
+    {
+      "index": 0,
+      "name": "primary_20200727_s17_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 1,
+      "name": "primary_20200727_s17_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 2,
+      "name": "primary_20200727_s29_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 3,
+      "name": "primary_20200727_s29_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 4,
+      "name": "primary_20200727_s43_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 5,
+      "name": "primary_20200727_s43_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 6,
+      "name": "pressure_20200727_s17_stagger_0.65_six",
+      "group": "pressure",
+      "cases": 4
+    },
+    {
+      "index": 7,
+      "name": "pressure_20200727_s17_stagger_1.1_six",
+      "group": "pressure",
+      "cases": 4
+    },
+    {
+      "index": 8,
+      "name": "scale_20200727_s17_stagger_2.2_twelve_split",
+      "group": "scale",
+      "cases": 4
+    },
+    {
+      "index": 9,
+      "name": "scale_20200727_s17_stagger_2.2_twelve_double",
+      "group": "scale",
+      "cases": 4
+    },
+    {
+      "index": 10,
+      "name": "sensitivity_20200727_s17_stagger_2.2_six",
+      "group": "sensitivity",
+      "cases": 4
+    },
+    {
+      "index": 11,
+      "name": "primary_20200805_s17_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 12,
+      "name": "primary_20200805_s17_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 13,
+      "name": "primary_20200805_s29_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 14,
+      "name": "primary_20200805_s29_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 15,
+      "name": "primary_20200805_s43_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 16,
+      "name": "primary_20200805_s43_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 17,
+      "name": "pressure_20200805_s17_stagger_0.65_six",
+      "group": "pressure",
+      "cases": 4
+    },
+    {
+      "index": 18,
+      "name": "pressure_20200805_s17_stagger_1.1_six",
+      "group": "pressure",
+      "cases": 4
+    },
+    {
+      "index": 19,
+      "name": "scale_20200805_s17_stagger_2.2_twelve_split",
+      "group": "scale",
+      "cases": 4
+    },
+    {
+      "index": 20,
+      "name": "scale_20200805_s17_stagger_2.2_twelve_double",
+      "group": "scale",
+      "cases": 4
+    },
+    {
+      "index": 21,
+      "name": "sensitivity_20200805_s17_stagger_2.2_six",
+      "group": "sensitivity",
+      "cases": 4
+    },
+    {
+      "index": 22,
+      "name": "primary_20200821_s17_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 23,
+      "name": "primary_20200821_s17_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 24,
+      "name": "primary_20200821_s29_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 25,
+      "name": "primary_20200821_s29_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 26,
+      "name": "primary_20200821_s43_sync_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 27,
+      "name": "primary_20200821_s43_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 28,
+      "name": "pressure_20200821_s17_stagger_0.65_six",
+      "group": "pressure",
+      "cases": 4
+    },
+    {
+      "index": 29,
+      "name": "pressure_20200821_s17_stagger_1.1_six",
+      "group": "pressure",
+      "cases": 4
+    },
+    {
+      "index": 30,
+      "name": "scale_20200821_s17_stagger_2.2_twelve_split",
+      "group": "scale",
+      "cases": 4
+    },
+    {
+      "index": 31,
+      "name": "scale_20200821_s17_stagger_2.2_twelve_double",
+      "group": "scale",
+      "cases": 4
+    },
+    {
+      "index": 32,
+      "name": "sensitivity_20200821_s17_stagger_2.2_six",
+      "group": "sensitivity",
+      "cases": 4
+    },
+    {
+      "index": 33,
+      "name": "reproduce_primary_20200727_s17_sync_2.2_six",
+      "group": "reproduce",
+      "cases": 8
+    }
+  ],
+  "total_cases": 212
+}

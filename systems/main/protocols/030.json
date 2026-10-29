@@ -1,0 +1,95 @@
+{
+  "version": "systems_v3_frozen_20261023",
+  "bundle": "scale_20200821_s17_stagger_2.2_twelve_split",
+  "group": "scale",
+  "start": "2020-08-21",
+  "source_end": "2020-08-22T23:00:00",
+  "arrival_end": "2020-08-23T00:00:00",
+  "end": "2020-08-24T00:00:00",
+  "common": {
+    "settlement_s": 300,
+    "warmup_s": 86400,
+    "admission_s": 0,
+    "reference_price": 40,
+    "seed": 17,
+    "progress_every_s": 21600,
+    "stream_construction": "nonoverlapping_release_intervals",
+    "admission_rule": "site_FCFS_no_backfilling",
+    "streams_per_class": 1,
+    "phase_span_s": 3600,
+    "replicas": 192,
+    "site_buses": [
+      101,
+      102,
+      103,
+      104,
+      201,
+      202,
+      203,
+      204,
+      301,
+      302,
+      303,
+      304
+    ],
+    "nodes": [
+      2528,
+      2528,
+      3776,
+      3776,
+      5024,
+      5024,
+      2528,
+      2528,
+      3776,
+      3776,
+      5024,
+      5024
+    ],
+    "capacity_calibration_p95_ratio": 2.2
+  },
+  "cases": [
+    {
+      "name": "reported",
+      "arm": "reported",
+      "method": "reported_cost",
+      "report_delay_s": 900,
+      "wait_weight": 0.1
+    },
+    {
+      "name": "reported_pulse",
+      "arm": "reported",
+      "method": "reported_cost",
+      "report_delay_s": 900,
+      "wait_weight": 0.1,
+      "paired_off": "reported",
+      "pulse": {
+        "site": 0,
+        "start_s": 129600,
+        "end_s": 136800,
+        "surcharge_per_mwh": 40
+      }
+    },
+    {
+      "name": "fixed",
+      "arm": "fixed",
+      "method": "fixed",
+      "report_delay_s": 900,
+      "wait_weight": 0.1
+    },
+    {
+      "name": "fixed_pulse",
+      "arm": "fixed",
+      "method": "fixed",
+      "report_delay_s": 900,
+      "wait_weight": 0.1,
+      "paired_off": "fixed",
+      "pulse": {
+        "site": 0,
+        "start_s": 129600,
+        "end_s": 136800,
+        "surcharge_per_mwh": 40
+      }
+    }
+  ]
+}

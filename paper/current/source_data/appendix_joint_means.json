@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2020-07-27",
+    "phase": "sync",
+    "initialization": "Uniform",
+    "completion_pp": 5.353628193701728,
+    "waiting_min": -44.40670480076501,
+    "energy_mwh": 15.473768808333148,
+    "bill": 244.19729404214013,
+    "generation_cost": 250.30142845135802
+  },
+  {
+    "date": "2020-07-27",
+    "phase": "stagger",
+    "initialization": "Uniform",
+    "completion_pp": 4.482241166194586,
+    "waiting_min": -39.39394090155002,
+    "energy_mwh": 12.10971255014067,
+    "bill": 206.58561999754056,
+    "generation_cost": 211.70420698200664
+  },
+  {
+    "date": "2020-07-27",
+    "phase": "stagger",
+    "initialization": "Proportional",
+    "completion_pp": 0.028279124076935336,
+    "waiting_min": -0.21057129713164058,
+    "energy_mwh": 0.30782317996844694,
+    "bill": 0.6410863384553522,
+    "generation_cost": 0.2743440928558509
+  },
+  {
+    "date": "2020-08-05",
+    "phase": "sync",
+    "initialization": "Uniform",
+    "completion_pp": -2.452557755775577,
+    "waiting_min": -133.5710218990649,
+    "energy_mwh": 5.24654178981488,
+    "bill": 114.10268987456948,
+    "generation_cost": 110.6501970559669
+  },
+  {
+    "date": "2020-08-05",
+    "phase": "stagger",
+    "initialization": "Uniform",
+    "completion_pp": -3.748330765279917,
+    "waiting_min": -99.34183748569198,
+    "energy_mwh": 2.795500472808802,
+    "bill": 125.60284901800817,
+    "generation_cost": 121.20452161210899
+  },
+  {
+    "date": "2020-08-05",
+    "phase": "stagger",
+    "initialization": "Proportional",
+    "completion_pp": -0.7272727272727264,
+    "waiting_min": -19.58355419459185,
+    "energy_mwh": 2.4916846719742884,
+    "bill": 35.386905382171484,
+    "generation_cost": 21.972290152994294
+  },
+  {
+    "date": "2020-08-21",
+    "phase": "sync",
+    "initialization": "Uniform",
+    "completion_pp": 0.369360551826999,
+    "waiting_min": -18.10735646335654,
+    "energy_mwh": 0.7616817527778229,
+    "bill": 5123.219716836126,
+    "generation_cost": -103.71433563002695
+  },
+  {
+    "date": "2020-08-21",
+    "phase": "stagger",
+    "initialization": "Uniform",
+    "completion_pp": 0.40080997807892355,
+    "waiting_min": -19.70246359945043,
+    "energy_mwh": 0.976015571780844,
+    "bill": 4296.281075493908,
+    "generation_cost": -84.89427072290952
+  },
+  {
+    "date": "2020-08-21",
+    "phase": "stagger",
+    "initialization": "Proportional",
+    "completion_pp": 0.0,
+    "waiting_min": -0.16049167350032326,
+    "energy_mwh": 0.0009427273611587831,
+    "bill": 498.9657999906728,
+    "generation_cost": -6.441196430940181
+  }
+]

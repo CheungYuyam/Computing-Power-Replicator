@@ -1,0 +1,236 @@
+[
+  {
+    "date": "2020-07-27",
+    "off": "reported",
+    "on": "reported_pulse",
+    "probability_changes": null,
+    "first_probability_change": {
+      "off": {
+        "stream": 13301,
+        "ordinal": 9,
+        "old": 0,
+        "candidate": 5,
+        "new": 0,
+        "probability": 0.024093662692587337,
+        "uniform": 0.5736885442161914,
+        "time": 130801.2670157068,
+        "key": "413889@109",
+        "own_report_visible": false
+      },
+      "on": {
+        "stream": 13301,
+        "ordinal": 9,
+        "old": 0,
+        "candidate": 5,
+        "new": 0,
+        "probability": 0.024108265512261997,
+        "uniform": 0.5736885442161914,
+        "time": 130801.2670157068,
+        "key": "413889@109",
+        "own_report_visible": false
+      }
+    },
+    "first_assignment_change": {
+      "off": {
+        "stream": 310,
+        "ordinal": 4,
+        "old": 0,
+        "candidate": 2,
+        "new": 0,
+        "probability": 0.0869265379319504,
+        "uniform": 0.08740103373101615,
+        "time": 132339.76439790576,
+        "key": "4984712@23",
+        "own_report_visible": false
+      },
+      "on": {
+        "stream": 310,
+        "ordinal": 4,
+        "old": 0,
+        "candidate": 2,
+        "new": 2,
+        "probability": 0.08872022017262006,
+        "uniform": 0.08740103373101615,
+        "time": 132339.76439790576,
+        "key": "4984712@23",
+        "own_report_visible": false
+      }
+    },
+    "same_stream_next_task_off": {
+      "has_next_task": true,
+      "key": "4816939@23",
+      "release_s": 133753.50785340313,
+      "start_s": 137977.66492146597,
+      "site": 0,
+      "release_gap_s": 1413.7434554973734,
+      "resource_wait_restricted_s": 4224.157068062836,
+      "not_started_by_horizon": false
+    },
+    "same_stream_next_task_on": {
+      "has_next_task": true,
+      "key": "4816939@23",
+      "release_s": 133753.50785340313,
+      "start_s": 133753.50785340313,
+      "site": 2,
+      "release_gap_s": 1413.7434554973734,
+      "resource_wait_restricted_s": 0.0,
+      "not_started_by_horizon": false
+    }
+  },
+  {
+    "date": "2020-08-05",
+    "off": "reported",
+    "on": "reported_pulse",
+    "probability_changes": null,
+    "first_probability_change": {
+      "off": {
+        "stream": 3079,
+        "ordinal": 2,
+        "old": 0,
+        "candidate": 4,
+        "new": 4,
+        "probability": 0.13845762984541168,
+        "uniform": 0.03964795630950935,
+        "time": 130836.16753926701,
+        "key": "2941548@9",
+        "own_report_visible": false
+      },
+      "on": {
+        "stream": 3079,
+        "ordinal": 2,
+        "old": 0,
+        "candidate": 4,
+        "new": 4,
+        "probability": 0.13849607325669203,
+        "uniform": 0.03964795630950935,
+        "time": 130836.16753926701,
+        "key": "2941548@9",
+        "own_report_visible": false
+      }
+    },
+    "first_assignment_change": {
+      "off": {
+        "stream": 730,
+        "ordinal": 0,
+        "old": 0,
+        "candidate": 2,
+        "new": 0,
+        "probability": 0.4478121198769227,
+        "uniform": 0.44985071031647117,
+        "time": 133096.7277486911,
+        "key": "393266@81",
+        "own_report_visible": false
+      },
+      "on": {
+        "stream": 730,
+        "ordinal": 0,
+        "old": 0,
+        "candidate": 2,
+        "new": 2,
+        "probability": 0.45024252739793463,
+        "uniform": 0.44985071031647117,
+        "time": 133096.7277486911,
+        "key": "393266@81",
+        "own_report_visible": false
+      }
+    },
+    "same_stream_next_task_off": {
+      "has_next_task": true,
+      "key": "925944@81",
+      "release_s": 96307.70157068063,
+      "start_s": 167604.47643979057,
+      "site": 0,
+      "release_gap_s": 0,
+      "resource_wait_restricted_s": 34507.74869109946,
+      "not_started_by_horizon": false
+    },
+    "same_stream_next_task_on": {
+      "has_next_task": true,
+      "key": "925944@81",
+      "release_s": 96307.70157068063,
+      "start_s": 157282.20418848167,
+      "site": 2,
+      "release_gap_s": 0,
+      "resource_wait_restricted_s": 24185.476439790567,
+      "not_started_by_horizon": false
+    }
+  },
+  {
+    "date": "2020-08-21",
+    "off": "reported",
+    "on": "reported_pulse",
+    "probability_changes": null,
+    "first_probability_change": {
+      "off": {
+        "stream": 1489,
+        "ordinal": 23,
+        "old": 0,
+        "candidate": 2,
+        "new": 0,
+        "probability": 0.024660499387676726,
+        "uniform": 0.4995339816033041,
+        "time": 130817.41884816754,
+        "key": "3796306@18",
+        "own_report_visible": false
+      },
+      "on": {
+        "stream": 1489,
+        "ordinal": 23,
+        "old": 0,
+        "candidate": 2,
+        "new": 0,
+        "probability": 0.024664584739049263,
+        "uniform": 0.4995339816033041,
+        "time": 130817.41884816754,
+        "key": "3796306@18",
+        "own_report_visible": false
+      }
+    },
+    "first_assignment_change": {
+      "off": {
+        "stream": 2405,
+        "ordinal": 0,
+        "old": 3,
+        "candidate": 0,
+        "new": 0,
+        "probability": 0.018685534512075025,
+        "uniform": 0.01730373156624121,
+        "time": 137315.445026178,
+        "key": "3361408@30",
+        "own_report_visible": false
+      },
+      "on": {
+        "stream": 2405,
+        "ordinal": 0,
+        "old": 3,
+        "candidate": 0,
+        "new": 3,
+        "probability": 0.016977439062068826,
+        "uniform": 0.01730373156624121,
+        "time": 137315.445026178,
+        "key": "3361408@30",
+        "own_report_visible": false
+      }
+    },
+    "same_stream_next_task_off": {
+      "has_next_task": true,
+      "key": "4900565@30",
+      "release_s": 146067.445026178,
+      "start_s": 146067.445026178,
+      "site": 0,
+      "release_gap_s": 8752.0,
+      "resource_wait_restricted_s": 0.0,
+      "not_started_by_horizon": false
+    },
+    "same_stream_next_task_on": {
+      "has_next_task": true,
+      "key": "4900565@30",
+      "release_s": 146067.445026178,
+      "start_s": 146067.445026178,
+      "site": 3,
+      "release_gap_s": 8752.0,
+      "resource_wait_restricted_s": 0.0,
+      "not_started_by_horizon": false
+    }
+  }
+]

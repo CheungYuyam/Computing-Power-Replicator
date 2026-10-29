@@ -1,0 +1,7 @@
+case_id,reference_case,tau,task_group,maximum_gap_pp,endpoint_difference_pp
+evolution_036,evolution_010,0.0,Short tasks,5.351203240191538,-1.1626851865258248
+evolution_036,evolution_010,0.0,Long tasks,4.612250939747698,1.1675882923055658
+evolution_037,evolution_013,0.5,Short tasks,5.632884312584297,-1.2040428157485406
+evolution_037,evolution_013,0.5,Long tasks,4.854697732979229,1.202501049835536
+evolution_038,evolution_016,2.0,Short tasks,6.024341117570897,-1.3026838606254976
+evolution_038,evolution_016,2.0,Long tasks,5.3844571646731065,1.3277679859209357

@@ -1,0 +1,7 @@
+{
+  "original_controller_sha256": "ba87aec0bdbdcb8a63291b23b2187b4edb2e43f70a6f705ec8c0e180dbb2de32",
+  "runs": 72,
+  "bundles": 9,
+  "full_classical_engineering_baseline": false,
+  "scope": "Same-rule cost-history x communication mechanism factorial; exact classical-limit gate."
+}

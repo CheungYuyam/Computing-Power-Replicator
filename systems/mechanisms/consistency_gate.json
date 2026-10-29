@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "original_controller_identical": true,
+  "derivative_cases": 180,
+  "trajectory_cases": 3,
+  "max_derivative_error": 1.2915558379733572e-16,
+  "max_trajectory_error": 1.4432899320127035e-15,
+  "scope": "Canonical classical limit with shared costs, common revision rate, unsaturated acceptance. Engineering arms are mechanism ablations, not a complete classical-model controller."
+}

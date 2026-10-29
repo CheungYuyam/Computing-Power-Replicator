@@ -1,20 +1,19 @@
-# Manuscript Figures
+# Current Manuscript Figures
 
-| Figure | Export Stem | Renderer |
+Approved exports in `paper/current/figures/` match the October 29 manuscript.
+
+| Figure | Export Stem | Renderer / Evidence |
 | --- | --- | --- |
-| 1 | fig01_framework | Final PDF supplied; current editable construction source not verified |
-| 2 | fig_delay_changes | paper/plot_report_delay_changes.py |
-| 3 | fig_initial_progress | paper/plot_initial_progress.py |
-| 4 | fig_stage_count | paper/plot_stage_count.py |
-| 5 | fig_cost_comparisons | paper/plot_remaining_results.py |
-| 6 | fig02_cost_formation | figure_times_r1/redesign.py: macro_figure; paper/soften_cost_zero.py |
-| 7 | fig03_engineering_paths | figure_times_r1/redesign.py: engineering; final export supplied |
-| 8 | fig_response_all_seeds | paper/plot_remaining_results.py |
-| 9 | fig05_event_chain | paper/plot_event_compact.py |
-| 10 | fig_energy_all_seeds | paper/plot_energy_all_seeds.py |
+| 1 | systems/fig_system_architecture | Approved PDF/SVG supplied; no standalone generator claimed |
+| 2 | redesigned/fig02_cost_formation | make_controlled_cost_figure.py; both frozen short/long trajectories |
+| 3 | systems/fig_joint_outcomes | make_joint_outcome_matrix.py; 27 paired results |
+| 4 | systems/fig_site_constraints | make_site_bars.py; 108 site-level rows |
+| 5 | systems/fig_joint_trajectory | make_joint_system_figures.py; interval traces and summary reconciliation |
+| 6 | systems/fig_signal_consequences | make_signal_figure.py + design_signal_options.py; 39 pairs and temporal trace |
+| 7 | systems/fig_same_stream_events | make_event_figure.py + design_figure7_options.py; matched successors |
 
-Run standalone plotting scripts from the repository root. They write to `paper/figures/redesigned/`, replacing the corresponding packaged exports. Commit or copy an export before rerendering if its exact published appearance must be retained. `plot_remaining_results.py` also renders Figures 4, 8 and 10; run the dedicated Figure 4 renderer afterward.
+Run `python scripts/render_current_figures.py`. It copies compact inputs and renderers into `runs/current_figures/`, creates output/QA directories and renders Figures 2–7. Approved exports are not overwritten. Alternate design functions remain in helper modules but are not called.
 
-Figures 2–5 and 8–10 use the bundled CSVs. Figures 6–7 require full trajectories absent from this checkout; the legacy shared renderer retains the original release-directory layout. It is supplied for traceability, not advertised as a turnkey reproduction command. Final layout refinements may differ from the older shared renderer. `restyle_vector_titles.py` is a historical Windows/Times New Roman postprocessor and expects the earlier figure set.
+Times New Roman is retained for manuscript consistency. Without it, Matplotlib may substitute fonts and change wrapping. Proprietary fonts are not bundled. Approved PDF/SVG exports preserve the final appearance.
 
-Times New Roman is used when installed; portable Matplotlib renderers fall back to Liberation Serif or DejaVu Serif. Proprietary font files are not distributed.
+Current table fragments are in `paper/current/tables/main/` and `paper/current/tables/appendix/`. Data are in `paper/current/source_data/`, including the same-rule and structure paired CSVs. Table fragments retain manuscript references and are not standalone LaTeX documents. Legacy figure numbering is in `legacy_20261022/FIGURES.md`.

@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "expected_cases": 36,
+  "completed_cases": 36,
+  "expected_bundles": 9,
+  "unique_design_cases": 36,
+  "paired_signal_comparisons": 18,
+  "method_comparisons": 18,
+  "exact_reproduction_files": 0,
+  "grid_preflight": "PASS",
+  "fixed_negative_controls_verified": 9,
+  "inferential_scope": "Descriptive across three held-out dates and three controller seeds; no iid task-copy inference",
+  "raw_results_root": "release://experiments/large_system_v3/capacity_runs/ab3a8acf66d3"
+}

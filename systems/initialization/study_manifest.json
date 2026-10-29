@@ -1,0 +1,82 @@
+{
+  "frozen_before_held_out_results": true,
+  "dates": [
+    "2020-07-27",
+    "2020-08-05",
+    "2020-08-21"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "calibration": "Before July20; unchanged across all held-out dates",
+  "source_hours": 47,
+  "warmup_hours": 24,
+  "evaluation_hours": 24,
+  "tail_hours": 24,
+  "phase_rule": "Each replica has constant offset 3600*r/(replicas-1); no wrap or dropped last-hour jobs",
+  "primary_unit": "date-window x controller-seed; synthetic task copies are not independent samples",
+  "analysis": "Descriptive paired differences; seeds summarized within each date first; report all dates and failures",
+  "bundles": [
+    {
+      "index": 0,
+      "name": "capacity_primary_20200727_s17_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 1,
+      "name": "capacity_primary_20200727_s29_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 2,
+      "name": "capacity_primary_20200727_s43_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 3,
+      "name": "capacity_primary_20200805_s17_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 4,
+      "name": "capacity_primary_20200805_s29_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 5,
+      "name": "capacity_primary_20200805_s43_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 6,
+      "name": "capacity_primary_20200821_s17_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 7,
+      "name": "capacity_primary_20200821_s29_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    },
+    {
+      "index": 8,
+      "name": "capacity_primary_20200821_s43_stagger_2.2_six",
+      "group": "capacity_initialization",
+      "cases": 4
+    }
+  ],
+  "total_cases": 36,
+  "packaging": "LF_byte_checksums_v2",
+  "rationale": "Uniform initial allocation with unequal site capacities may disadvantage fixed baseline; both methods receive capacity-proportional initialization",
+  "timing": "Added during source review before inspecting held-out method performance; original212 unchanged",
+  "reproducibility": "Full first-bundle rerun remains in original212; supplement reuses same physical code except optional initialization"
+}

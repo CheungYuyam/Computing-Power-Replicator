@@ -1,0 +1,14 @@
+{
+  "structural_runs": 144,
+  "overlap_with_existing_settings": 36,
+  "new_structural_settings_runs": 108,
+  "event_pairs": 39,
+  "zero_response_pairs": 27,
+  "receiving_start_without_source_start_pairs": 8,
+  "matched_paths": 27,
+  "excluded": "The entire runtime-forecast planning branch is excluded: different research question.",
+  "sources": {
+    "structure_pairs.csv": "13cc387b056cea8fb86440db696bb3686266dcbfd5d214adb871c4a593c73733",
+    "TARGET_PATH_AUDIT.json": "14c8576720b2011af90d268eaea1ba904afc907d97b2007c240a6a0a2099b366"
+  }
+}

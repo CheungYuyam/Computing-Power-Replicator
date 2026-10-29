@@ -1,0 +1,51 @@
+Frozen before new outcomes, 2026-10-25. Same-rule mechanism recheck.
+
+Purpose: replace the withdrawn target-share-controller comparison with a
+model-consistent verification and a physical-system mechanism factorial.
+No target-share state, deficit-based routing, runtime predictor, or new optimizer.
+The complete original controller.py is copied byte-for-byte from V3.
+
+Layer 1: classical reduction gate.
+With identical instantaneous/visible cost values, common revision rate lambda,
+and unsaturated responses, the published P_ij gives dx_i=lambda*beta*x_i*(mean C-C_i).
+Verify derivatives and full trajectories against the canonical equation. Verify
+the production controller's cost-accounting modes give identical decisions when
+fed identical information. Also test the complete executor under constant tariffs
+where accumulated/final-price accounting must agree. A failed gate prevents the
+server experiment array from starting. This is a consistency test under the
+classical assumptions, not a finite-resource scheduling-performance comparison.
+
+Layer 2: same-rule engineering 2x2 factorial.
+Factors: accumulated electricity charges versus full task energy priced at the
+final settlement tariff; communication 900 s versus 0 s. Zero communication still
+retains settlement waiting. All four arms use exactly the published candidate
+sampling and beta-clipped cost-acceptance rule, at actual task completions.
+Neither the completion-price approximation nor its zero-communication combination
+is labeled the full classical model. They isolate score history and communication.
+
+Shared system: original PM100 tasks and power profiles, six sites / 73-bus grid,
+192 copies, staggered releases, capacity-proportional initial assignment, original
+release/FCFS/resource/nonpreemption rules and grid/settlement implementation.
+Three dates (July 27, August 5, August 21), seeds 17/29/43, four arms, signal off/on:
+72 runs. The 18 accumulated/900-s cases repeat previous configurations; 54 cases
+add the new proportional-initialization factorial settings. No parameter tuning
+or case removal after outcome inspection. Frozen signal: site 0, hours 36-38, +40.
+
+Every decision records old/candidate visible costs and validates candidate sampling,
+acceptance probability and the resulting destination against the original P_ij.
+All arms use the same indexed random variates and initial placement. Closed-loop
+cost values can subsequently differ because physical trajectories differ; the
+only directly changed inputs are the two named factors.
+
+Outcomes retained together: completion at 48h, restricted waiting through 72h,
+completed node-hours, site occupancy and queue snapshots, 24-48h IT energy and bill,
+generation cost, line loading, curtailment and slack. Target/receiving/total signal
+window energy is also retained. Within each date use all three paired seeds;
+replicated jobs are not independent statistical samples. No universal superiority
+claim or requirement that corrected differences must be small.
+
+Integrity: task/resource/energy/report/grid audits in every run; identical task
+inputs across arms; on/off identical pre-signal histories; all 18 repeated cases
+checked against original task, decision and trace records (54 file comparisons),
+ignoring only the new read-only per-decision audit fields. Preserve withdrawn data
+and the failed-equivalence report in their separate prior directory.

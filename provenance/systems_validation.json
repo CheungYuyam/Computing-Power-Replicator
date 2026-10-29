@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "tests": {
+    "main": 25,
+    "initialization": 23,
+    "mechanisms": 28,
+    "structure": 23
+  },
+  "total_tests_passed": 99,
+  "external_input_grid_tests": "Not run locally; CP_RAW unset",
+  "core_files_byte_identical": 24,
+  "source_manifest_entries_checked": 254,
+  "python_files_syntax_checked": 79,
+  "figures_rebuilt_and_visually_checked": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "full_experiment_rerun": false
+}

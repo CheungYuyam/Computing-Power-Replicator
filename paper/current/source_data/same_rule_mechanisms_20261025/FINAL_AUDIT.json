@@ -1,0 +1,386 @@
+{
+  "status": "PASS",
+  "cases": 72,
+  "original_rule_decisions_checked": 15254361,
+  "regressions": [
+    {
+      "bundle": 0,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 0,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 0,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 0,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 0,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 0,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 1,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 1,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 1,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 1,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 1,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 1,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 2,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 2,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 2,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 2,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 2,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 2,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 266112,
+      "exact": true
+    },
+    {
+      "bundle": 3,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 163584,
+      "exact": true
+    },
+    {
+      "bundle": 3,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 3,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 147751,
+      "exact": true
+    },
+    {
+      "bundle": 3,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 163584,
+      "exact": true
+    },
+    {
+      "bundle": 3,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 3,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 147747,
+      "exact": true
+    },
+    {
+      "bundle": 4,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 163584,
+      "exact": true
+    },
+    {
+      "bundle": 4,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 4,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 146710,
+      "exact": true
+    },
+    {
+      "bundle": 4,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 163584,
+      "exact": true
+    },
+    {
+      "bundle": 4,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 4,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 146611,
+      "exact": true
+    },
+    {
+      "bundle": 5,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 163584,
+      "exact": true
+    },
+    {
+      "bundle": 5,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 5,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 149547,
+      "exact": true
+    },
+    {
+      "bundle": 5,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 163584,
+      "exact": true
+    },
+    {
+      "bundle": 5,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 5,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 149511,
+      "exact": true
+    },
+    {
+      "bundle": 6,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 6,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 6,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 6,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 6,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 6,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 7,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 7,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 7,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 7,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 7,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 7,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 8,
+      "case": "reported",
+      "file": "tasks.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 8,
+      "case": "reported",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 8,
+      "case": "reported",
+      "file": "revisions.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 8,
+      "case": "reported_pulse",
+      "file": "tasks.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    },
+    {
+      "bundle": 8,
+      "case": "reported_pulse",
+      "file": "trace.jsonl.gz",
+      "rows": 864,
+      "exact": true
+    },
+    {
+      "bundle": 8,
+      "case": "reported_pulse",
+      "file": "revisions.jsonl.gz",
+      "rows": 221568,
+      "exact": true
+    }
+  ],
+  "consistency_gate": "PASS"
+}

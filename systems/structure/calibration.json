@@ -1,0 +1,45 @@
+{
+  "window": [
+    "2020-07-16",
+    "2020-07-20"
+  ],
+  "jobs": 2681,
+  "lane_counts": [
+    10,
+    875
+  ],
+  "resource_max": [
+    256,
+    32768,
+    1024
+  ],
+  "profile": {
+    "nodes": {
+      "mean": 255.53211805555554,
+      "p95": 518.0,
+      "peak": 12354.0
+    },
+    "cores": {
+      "mean": 22608.559027777777,
+      "p95": 41237.600000000006,
+      "peak": 1543760.0
+    },
+    "gpus": {
+      "mean": 986.9105902777778,
+      "p95": 2052.45,
+      "peak": 49384.0
+    },
+    "mean_curve_power_w": {
+      "mean": 181421.92369343818,
+      "p95": 354974.5612489848,
+      "peak": 8412147.61909924
+    },
+    "active_jobs": {
+      "mean": 151.75,
+      "p95": 412.0,
+      "peak": 876.0
+    }
+  },
+  "power_is_sum_over_allocated_nodes": true,
+  "capacity_rule": "Total nodes = calibration p95 offered nodes * replicas / target occupancy; rounded up in 64-node blocks with site ratios 1:1.5:2:1:1.5:2. Each site must fit largest job."
+}

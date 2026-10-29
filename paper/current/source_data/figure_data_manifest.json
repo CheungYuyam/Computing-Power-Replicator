@@ -1,0 +1,32 @@
+{
+  "primary_pair_rows": 27,
+  "site_rows": 108,
+  "reported_signal_pairs": 39,
+  "main_cases": 212,
+  "capacity_cases": 36,
+  "counts_by_group": {
+    "primary": [
+      1,
+      16,
+      1
+    ],
+    "pressure": [
+      4,
+      2,
+      0
+    ],
+    "scale": [
+      0,
+      5,
+      1
+    ],
+    "initialization": [
+      4,
+      4,
+      1
+    ]
+  },
+  "statistics": "Paired differences; mean and min\u2013max across three controller seeds, not confidence intervals.",
+  "example_rule": "Event traces use each date, seed 17, staggered arrivals, six-site main setting; cumulative trace uses first of those dates.",
+  "exclusions": "Exact reproduction cases excluded from displayed outcome counts; fixed/other ablations retained in full source data."
+}

@@ -1,0 +1,15 @@
+{
+  "case": "001",
+  "arms": [
+    "reported",
+    "fixed"
+  ],
+  "window_hours": [
+    24,
+    33
+  ],
+  "intervals": 108,
+  "maximum_absolute_cost_rate_difference": 0.0,
+  "curtailment_energy_difference_mwh": -1.0753097141796293,
+  "it_energy_difference_mwh": 0.8729357506399094
+}

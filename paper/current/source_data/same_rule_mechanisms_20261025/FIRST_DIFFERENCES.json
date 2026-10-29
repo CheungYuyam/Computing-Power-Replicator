@@ -1,0 +1,979 @@
+{
+  "status": "PASS",
+  "selection": "All three dates, seed 17, signal off; three variants. First differing assignment selected mechanically, not by magnitude or favorable outcome.",
+  "scope": "The first assignment and its own successor; later aggregate effects can include additional changed decisions.",
+  "pairs": [
+    {
+      "bundle": 0,
+      "variant": "completion",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 20219,
+          "ordinal": 0,
+          "old": 5,
+          "candidate": 2,
+          "new": 5,
+          "probability": 3.7298797895017046e-05,
+          "uniform": 0.9427693243090779,
+          "audit_old_cost": 0.006494996935499213,
+          "audit_candidate_cost": 0.006246338282865766,
+          "audit_probability_error": 0.0,
+          "time": 28201.821989528795,
+          "key": "2094654@179",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 20219,
+          "ordinal": 0,
+          "old": 5,
+          "candidate": 2,
+          "new": 5,
+          "probability": 5.500490103182639e-06,
+          "uniform": 0.9427693243090779,
+          "audit_old_cost": 0.05686954326627679,
+          "audit_candidate_cost": 0.05683287333225557,
+          "audit_probability_error": 0.0,
+          "time": 28201.821989528795,
+          "key": "2094654@179",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 5576,
+          "ordinal": 1,
+          "old": 1,
+          "candidate": 5,
+          "new": 1,
+          "probability": 0.002656132392339118,
+          "uniform": 0.00504738359850565,
+          "audit_old_cost": 0.106012499994593,
+          "audit_candidate_cost": 0.08830495071233221,
+          "audit_probability_error": 0.0,
+          "time": 29751.293193717276,
+          "key": "5589605@31",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 5576,
+          "ordinal": 1,
+          "old": 1,
+          "candidate": 5,
+          "new": 5,
+          "probability": 0.005221413618810608,
+          "uniform": 0.00504738359850565,
+          "audit_old_cost": 0.2105384415704807,
+          "audit_candidate_cost": 0.17572901744507666,
+          "audit_probability_error": 0.0,
+          "time": 29751.293193717276,
+          "key": "5589605@31",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "1022583@31",
+          "release": 30890.293193717276,
+          "start": 30992.879581151832,
+          "site": 1,
+          "completion": 33260.879581151836,
+          "resources": [
+            16,
+            2048,
+            16
+          ],
+          "runtime_s": 2268.0
+        },
+        "variant": {
+          "key": "1022583@31",
+          "release": 30890.293193717276,
+          "start": 30890.293193717276,
+          "site": 5,
+          "completion": 33158.293193717276,
+          "resources": [
+            16,
+            2048,
+            16
+          ],
+          "runtime_s": 2268.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 30600.0,
+        "interval_end_s": 30900.0,
+        "site_delta_mw": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.00047272146596721853
+        ]
+      }
+    },
+    {
+      "bundle": 0,
+      "variant": "instant",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 40,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.39981738670340816,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 11703.5445026178,
+          "key": "789175@3",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 40,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 4,
+          "probability": 0.13095353470418716,
+          "uniform": 0.39981738670340816,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 0.12697643530541894,
+          "audit_probability_error": 0.0,
+          "time": 11703.5445026178,
+          "key": "789175@3",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 74,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 2,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.016598820765156175,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 11794.240837696336,
+          "key": "4377485@5",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 74,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 2,
+          "new": 2,
+          "probability": 0.13436579257789277,
+          "uniform": 0.016598820765156175,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 0.10422804948071476,
+          "audit_probability_error": 0.0,
+          "time": 11794.240837696336,
+          "key": "4377485@5",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "5459438@5",
+          "release": 12208.240837696336,
+          "start": 12208.240837696336,
+          "site": 4,
+          "completion": 13242.240837696336,
+          "resources": [
+            10,
+            1280,
+            0
+          ],
+          "runtime_s": 1034.0
+        },
+        "variant": {
+          "key": "5459438@5",
+          "release": 12208.240837696336,
+          "start": 12208.240837696336,
+          "site": 2,
+          "completion": 13242.240837696336,
+          "resources": [
+            10,
+            1280,
+            0
+          ],
+          "runtime_s": 1034.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 12000.0,
+        "interval_end_s": 12300.0,
+        "site_delta_mw": [
+          -0.002732980802792051,
+          0.0,
+          0.002241040837696495,
+          0.0,
+          -0.002241040837696051,
+          0.002732980802792717
+        ]
+      }
+    },
+    {
+      "bundle": 0,
+      "variant": "completion_instant",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 40,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.39981738670340816,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 11703.5445026178,
+          "key": "789175@3",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 40,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 4,
+          "probability": 0.13095353470418716,
+          "uniform": 0.39981738670340816,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 0.12697643530541894,
+          "audit_probability_error": 0.0,
+          "time": 11703.5445026178,
+          "key": "789175@3",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 74,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 2,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.016598820765156175,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 11794.240837696336,
+          "key": "4377485@5",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 74,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 2,
+          "new": 2,
+          "probability": 0.13436579257789277,
+          "uniform": 0.016598820765156175,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 0.10422804948071476,
+          "audit_probability_error": 0.0,
+          "time": 11794.240837696336,
+          "key": "4377485@5",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "5459438@5",
+          "release": 12208.240837696336,
+          "start": 12208.240837696336,
+          "site": 4,
+          "completion": 13242.240837696336,
+          "resources": [
+            10,
+            1280,
+            0
+          ],
+          "runtime_s": 1034.0
+        },
+        "variant": {
+          "key": "5459438@5",
+          "release": 12208.240837696336,
+          "start": 12208.240837696336,
+          "site": 2,
+          "completion": 13242.240837696336,
+          "resources": [
+            10,
+            1280,
+            0
+          ],
+          "runtime_s": 1034.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 12000.0,
+        "interval_end_s": 12300.0,
+        "site_delta_mw": [
+          -0.002732980802792051,
+          0.0,
+          0.002241040837696495,
+          0.0,
+          -0.002241040837696051,
+          0.002732980802792717
+        ]
+      }
+    },
+    {
+      "bundle": 3,
+      "variant": "completion",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 6937,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 5,
+          "probability": 0.4500537258198942,
+          "uniform": 0.36414146036905704,
+          "audit_old_cost": 4.0003581721326285,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 58812.240837696336,
+          "key": "5695455@38",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 6937,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 5,
+          "probability": 1.0,
+          "uniform": 0.36414146036905704,
+          "audit_old_cost": 9.668822182467808,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 58812.240837696336,
+          "key": "5695455@38",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 8170,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 4,
+          "probability": 0.4500537258198945,
+          "uniform": 0.9375944102599519,
+          "audit_old_cost": 4.00035817213263,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 59019.57068062827,
+          "key": "5695455@47",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 8170,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 5,
+          "new": 5,
+          "probability": 1.0,
+          "uniform": 0.9375944102599519,
+          "audit_old_cost": 9.668822182467814,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 59019.57068062827,
+          "key": "5695455@47",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "1606119@47",
+          "release": 40289.86387434555,
+          "start": 66533.26178010472,
+          "site": 4,
+          "completion": 134698.26178010472,
+          "resources": [
+            1,
+            128,
+            4
+          ],
+          "runtime_s": 68165.0
+        },
+        "variant": {
+          "key": "1606119@47",
+          "release": 40289.86387434555,
+          "start": 68195.4554973822,
+          "site": 5,
+          "completion": 136360.4554973822,
+          "resources": [
+            1,
+            128,
+            4
+          ],
+          "runtime_s": 68165.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 66300.0,
+        "interval_end_s": 66600.0,
+        "site_delta_mw": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -2.2448865621527148e-05,
+          0.0
+        ]
+      }
+    },
+    {
+      "bundle": 3,
+      "variant": "instant",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 1,
+          "probability": 0.32349933151455407,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 3.156662210097027,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 1,
+          "probability": 0.32349933151455407,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 3.156662210097027,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "1606119@16",
+          "release": 39705.57068062827,
+          "start": 64974.77486910995,
+          "site": 4,
+          "completion": 133139.77486910994,
+          "resources": [
+            1,
+            128,
+            4
+          ],
+          "runtime_s": 68165.0
+        },
+        "variant": {
+          "key": "1606119@16",
+          "release": 39705.57068062827,
+          "start": 65743.47643979058,
+          "site": 1,
+          "completion": 133908.47643979057,
+          "resources": [
+            1,
+            128,
+            4
+          ],
+          "runtime_s": 68165.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 64800.0,
+        "interval_end_s": 65100.0,
+        "site_delta_mw": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.000508190750435844,
+          0.0
+        ]
+      }
+    },
+    {
+      "bundle": 3,
+      "variant": "completion_instant",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 1,
+          "probability": 1.0,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 8.744495062815664,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 4,
+          "probability": 0.0,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 3923,
+          "ordinal": 0,
+          "old": 4,
+          "candidate": 1,
+          "new": 1,
+          "probability": 1.0,
+          "uniform": 0.20431032013986128,
+          "audit_old_cost": 8.744495062815664,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 39499.57068062827,
+          "key": "5695455@16",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "1606119@16",
+          "release": 39705.57068062827,
+          "start": 64974.77486910995,
+          "site": 4,
+          "completion": 133139.77486910994,
+          "resources": [
+            1,
+            128,
+            4
+          ],
+          "runtime_s": 68165.0
+        },
+        "variant": {
+          "key": "1606119@16",
+          "release": 39705.57068062827,
+          "start": 65743.47643979058,
+          "site": 1,
+          "completion": 133908.47643979057,
+          "resources": [
+            1,
+            128,
+            4
+          ],
+          "runtime_s": 68165.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 64800.0,
+        "interval_end_s": 65100.0,
+        "site_delta_mw": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.000508190750435844,
+          0.0
+        ]
+      }
+    },
+    {
+      "bundle": 6,
+      "variant": "completion",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 2039,
+          "ordinal": 6,
+          "old": 5,
+          "candidate": 1,
+          "new": 5,
+          "probability": 0.00015812672068788762,
+          "uniform": 0.4358225127653217,
+          "audit_old_cost": 0.0012151738810890847,
+          "audit_candidate_cost": 0.00016099574316983366,
+          "audit_probability_error": 0.0,
+          "time": 43200.20418848167,
+          "key": "2093424@25",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 2039,
+          "ordinal": 6,
+          "old": 5,
+          "candidate": 1,
+          "new": 5,
+          "probability": 0.000284558216536173,
+          "uniform": 0.4358225127653217,
+          "audit_old_cost": 0.003591972053381542,
+          "audit_candidate_cost": 0.0016949172764737217,
+          "audit_probability_error": 0.0,
+          "time": 43200.20418848167,
+          "key": "2093424@25",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 170,
+          "ordinal": 0,
+          "old": 5,
+          "candidate": 0,
+          "new": 5,
+          "probability": 0.0030225799325904164,
+          "uniform": 0.062244382604864534,
+          "audit_old_cost": 0.05057653406409862,
+          "audit_candidate_cost": 0.03042600118016251,
+          "audit_probability_error": 0.0,
+          "time": 43555.188481675395,
+          "key": "659525@170",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 170,
+          "ordinal": 0,
+          "old": 5,
+          "candidate": 0,
+          "new": 0,
+          "probability": 0.13872265266054956,
+          "uniform": 0.062244382604864534,
+          "audit_old_cost": 1.1851984978249839,
+          "audit_candidate_cost": 0.26038081342132013,
+          "audit_probability_error": 0.0,
+          "time": 43555.188481675395,
+          "key": "659525@170",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "2782936@170",
+          "release": 52278.188481675395,
+          "start": 52278.188481675395,
+          "site": 5,
+          "completion": 52307.188481675395,
+          "resources": [
+            10,
+            1280,
+            0
+          ],
+          "runtime_s": 29.0
+        },
+        "variant": {
+          "key": "2782936@170",
+          "release": 52278.188481675395,
+          "start": 52278.188481675395,
+          "site": 0,
+          "completion": 52307.188481675395,
+          "resources": [
+            10,
+            1280,
+            0
+          ],
+          "runtime_s": 29.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 49200.0,
+        "interval_end_s": 49500.0,
+        "site_delta_mw": [
+          0.0,
+          0.0008021333333334546,
+          0.0,
+          0.0,
+          0.0,
+          -0.0008021333333334546
+        ]
+      }
+    },
+    {
+      "bundle": 6,
+      "variant": "instant",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 768,
+          "ordinal": 0,
+          "old": 1,
+          "candidate": 5,
+          "new": 1,
+          "probability": 0.0,
+          "uniform": 0.7522369801729633,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 328.78534031413614,
+          "key": "2203158@8",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 768,
+          "ordinal": 0,
+          "old": 1,
+          "candidate": 5,
+          "new": 1,
+          "probability": 0.049767188863632975,
+          "uniform": 0.7522369801729633,
+          "audit_old_cost": 0.49652783359303043,
+          "audit_candidate_cost": 0.1647465745021439,
+          "audit_probability_error": 0.0,
+          "time": 328.78534031413614,
+          "key": "2203158@8",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 2136,
+          "ordinal": 0,
+          "old": 3,
+          "candidate": 2,
+          "new": 3,
+          "probability": 0.0,
+          "uniform": 0.027890653078473937,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 686.9005235602094,
+          "key": "2203158@27",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 2136,
+          "ordinal": 0,
+          "old": 3,
+          "candidate": 2,
+          "new": 2,
+          "probability": 0.039325575006958484,
+          "uniform": 0.027890653078473937,
+          "audit_old_cost": 0.32718933332827604,
+          "audit_candidate_cost": 0.06501883328188614,
+          "audit_probability_error": 0.0,
+          "time": 686.9005235602094,
+          "key": "2203158@27",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "4460673@27",
+          "release": 933.9005235602094,
+          "start": 933.9005235602094,
+          "site": 3,
+          "completion": 1001.9005235602094,
+          "resources": [
+            1,
+            32,
+            4
+          ],
+          "runtime_s": 68.0
+        },
+        "variant": {
+          "key": "4460673@27",
+          "release": 933.9005235602094,
+          "start": 933.9005235602094,
+          "site": 2,
+          "completion": 1001.9005235602094,
+          "resources": [
+            1,
+            32,
+            4
+          ],
+          "runtime_s": 68.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 900.0,
+        "interval_end_s": 1200.0,
+        "site_delta_mw": [
+          0.0,
+          0.0,
+          0.0004943685863874336,
+          -0.0004943685863874341,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "bundle": 6,
+      "variant": "completion_instant",
+      "first_probability_difference": {
+        "reference": {
+          "stream": 768,
+          "ordinal": 0,
+          "old": 1,
+          "candidate": 5,
+          "new": 1,
+          "probability": 0.0,
+          "uniform": 0.7522369801729633,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 328.78534031413614,
+          "key": "2203158@8",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 768,
+          "ordinal": 0,
+          "old": 1,
+          "candidate": 5,
+          "new": 1,
+          "probability": 0.049767188863632975,
+          "uniform": 0.7522369801729633,
+          "audit_old_cost": 0.49652783359303043,
+          "audit_candidate_cost": 0.1647465745021439,
+          "audit_probability_error": 0.0,
+          "time": 328.78534031413614,
+          "key": "2203158@8",
+          "own_report_visible": false
+        }
+      },
+      "first_assignment_difference": {
+        "reference": {
+          "stream": 2136,
+          "ordinal": 0,
+          "old": 3,
+          "candidate": 2,
+          "new": 3,
+          "probability": 0.0,
+          "uniform": 0.027890653078473937,
+          "audit_old_cost": 1.0,
+          "audit_candidate_cost": 1.0,
+          "audit_probability_error": 0.0,
+          "time": 686.9005235602094,
+          "key": "2203158@27",
+          "own_report_visible": false
+        },
+        "variant": {
+          "stream": 2136,
+          "ordinal": 0,
+          "old": 3,
+          "candidate": 2,
+          "new": 2,
+          "probability": 0.039325575006958484,
+          "uniform": 0.027890653078473937,
+          "audit_old_cost": 0.32718933332827604,
+          "audit_candidate_cost": 0.06501883328188614,
+          "audit_probability_error": 0.0,
+          "time": 686.9005235602094,
+          "key": "2203158@27",
+          "own_report_visible": false
+        }
+      },
+      "successor": {
+        "reference": {
+          "key": "4460673@27",
+          "release": 933.9005235602094,
+          "start": 933.9005235602094,
+          "site": 3,
+          "completion": 1001.9005235602094,
+          "resources": [
+            1,
+            32,
+            4
+          ],
+          "runtime_s": 68.0
+        },
+        "variant": {
+          "key": "4460673@27",
+          "release": 933.9005235602094,
+          "start": 933.9005235602094,
+          "site": 2,
+          "completion": 1001.9005235602094,
+          "resources": [
+            1,
+            32,
+            4
+          ],
+          "runtime_s": 68.0
+        }
+      },
+      "first_power_difference": {
+        "interval_start_s": 900.0,
+        "interval_end_s": 1200.0,
+        "site_delta_mw": [
+          0.0,
+          0.0,
+          0.0004943685863874336,
+          -0.0004943685863874341,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

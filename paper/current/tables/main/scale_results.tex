@@ -1,0 +1,25 @@
+\begin{table}[!htb]
+\caption{Scale Comparisons: Accumulated-Cost Feedback Minus Fixed Allocation}
+\label{tab:scale-results}
+\centering\footnotesize
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}llrrrr@{}}
+\toprule
+Date & Sites & Comp. & Wait & Energy & Gen. cost\\
+ & & (pp) & (min) & (MWh) & (currency)\\
+\midrule
+07-27 & 6 & 4.75 & -40.44 & 13.28 & 228.24\\
+07-27 & 12 (S) & 5.09 & -47.45 & 18.23 & 290.76\\
+07-27 & 12 (E) & 4.98 & -45.61 & 28.91 & 466.43\\
+08-05 & 6 & -6.17 & -84.79 & 1.24 & 146.58\\
+08-05 & 12 (S) & -7.68 & -66.88 & 5.36 & 119.30\\
+08-05 & 12 (E) & -6.02 & -18.97 & 2.24 & 201.89\\
+08-21 & 6 & 0.43 & -21.19 & 0.74 & -91.06\\
+08-21 & 12 (S) & 0.41 & -18.77 & 0.86 & -78.93\\
+08-21 & 12 (E) & 0.18 & -18.16 & 1.06 & -169.75\\
+\bottomrule
+\end{tabular*}
+\par\smallskip\begin{minipage}{\columnwidth}\footnotesize
+S: split; E: expanded. All rows use staggered releases, seed 17, $\rho=2.2$, and no signal. Completion (Comp.) is measured at 48 h; restricted waiting (Wait) through 72 h; IT energy and generation cost over hours 24--48. The 6-site and split deployments have 45,312 nodes; expansion gives 90,496 nodes and twice the workload copies.
+\end{minipage}
+\end{table}
