@@ -1,0 +1,81 @@
+Material Passport
+Supplemental frozen-assignment replay, 2026-11-10
+Status: completed only if results/status.json confirms integrity gates.
+Maximum original-power reconstruction discrepancy: 1.45661260831e-13 MW.
+All energy responses below are signal ON minus OFF. Negative means reduction.
+R = recorded execution, C = omit resource wait, A = also omit release wait.
+All nine date/seed pairs retained. Values are mean [min,max] over three seeds.
+These are timing ablations, not deployable policies or online predictions.
+
+20200727 A
+  window_target_mwh: -0.00214891462 [-0.00310769708, -0.00135088611]
+  window_other_mwh: 0.00460156841 [0.00216459162, 0.00742623661]
+  window_system_mwh: 0.00245265379 [0.000813705512, 0.00543807593]
+  tail_target_mwh: -1.61258592 [-1.9425284, -1.30597811]
+  tail_other_mwh: 1.72554297 [1.37083349, 2.11257898]
+  tail_system_mwh: 0.112957044 [0.0648553784, 0.17005058]
+  window_sitewise_absolute_discrepancy_mwh: 0.00486814615 [0.00331662355, 0.00718220311]
+20200727 C
+  window_target_mwh: -0.00137942088 [-0.00310769708, -0.000221029072]
+  window_other_mwh: 0.00356402687 [0.00104642142, 0.00625369196]
+  window_system_mwh: 0.00218460598 [0.000284270143, 0.00544415545]
+  tail_target_mwh: -1.61335542 [-1.94370703, -1.30710797]
+  tail_other_mwh: 1.72658051 [1.37195166, 2.11375153]
+  tail_system_mwh: 0.113225092 [0.0648436916, 0.1700445]
+  window_sitewise_absolute_discrepancy_mwh: 0.0030106414 [0.00106859631, 0.00620888495]
+20200727 R
+  window_target_mwh: 0 [0, 0]
+  window_other_mwh: 0.00193280635 [0.000198854188, 0.0053087855]
+  window_system_mwh: 0.00193280635 [0.000198854188, 0.0053087855]
+  tail_target_mwh: -1.57904181 [-1.89604669, -1.27101424]
+  tail_other_mwh: 1.7204925 [1.36829055, 2.11137982]
+  tail_system_mwh: 0.141450688 [0.0972763179, 0.215333133]
+  window_sitewise_absolute_discrepancy_mwh: 0 [0, 0]
+20200805 A
+  window_target_mwh: -0.0771945692 [-0.215660689, -0.0028133097]
+  window_other_mwh: 0.0771945692 [0.0028133097, 0.215660689]
+  window_system_mwh: -6.47630098e-17 [-3.33066907e-16, 1.66533454e-16]
+  tail_target_mwh: -0.787896312 [-1.2030598, -0.505389739]
+  tail_other_mwh: 3.1710545 [0.978078904, 4.26767992]
+  tail_system_mwh: 2.38315819 [0.472689165, 3.61244052]
+  window_sitewise_absolute_discrepancy_mwh: 0.154389138 [0.0056266194, 0.431321379]
+20200805 C
+  window_target_mwh: -0.0770740282 [-0.215660689, -0.00245168653]
+  window_other_mwh: 0.0770740282 [0.00245168653, 0.215660689]
+  window_system_mwh: -1.54506038e-15 [-2.99760217e-15, -3.60822483e-16]
+  tail_target_mwh: -0.788016853 [-1.2030598, -0.505389739]
+  tail_other_mwh: 3.17117504 [0.978078904, 4.26804154]
+  tail_system_mwh: 2.38315819 [0.472689165, 3.61244052]
+  window_sitewise_absolute_discrepancy_mwh: 0.154148056 [0.00490337307, 0.431321379]
+20200805 R
+  window_target_mwh: 0 [0, 0]
+  window_other_mwh: 0 [0, 0]
+  window_system_mwh: 0 [0, 0]
+  tail_target_mwh: -0.162895734 [-0.317893961, 0.0201700335]
+  tail_other_mwh: 0.0248216146 [-0.66278692, 0.661271052]
+  tail_system_mwh: -0.138074119 [-0.980680881, 0.470307779]
+  window_sitewise_absolute_discrepancy_mwh: 0 [0, 0]
+20200821 A
+  window_target_mwh: -0.00204830676 [-0.00614492029, 0]
+  window_other_mwh: 0.00453794654 [0, 0.0136138396]
+  window_system_mwh: 0.00248963978 [0, 0.00746891934]
+  tail_target_mwh: -0.0839846136 [-0.157774605, -0.0336640472]
+  tail_other_mwh: 0.0814949738 [0.0336640472, 0.150305685]
+  tail_system_mwh: -0.00248963978 [-0.00746891934, 2.14758766e-15]
+  window_sitewise_absolute_discrepancy_mwh: 0.00211718899 [0, 0.00635156697]
+20200821 C
+  window_target_mwh: -0.00204830676 [-0.00614492029, 0]
+  window_other_mwh: 0.00447164209 [0, 0.0134149263]
+  window_system_mwh: 0.00242333533 [0, 0.00727000599]
+  tail_target_mwh: -0.0839846136 [-0.157774605, -0.0336640472]
+  tail_other_mwh: 0.0815612783 [0.0336640472, 0.150504599]
+  tail_system_mwh: -0.00242333533 [-0.00727000599, 3.23699401e-15]
+  window_sitewise_absolute_discrepancy_mwh: 0.00205088454 [0, 0.00615265362]
+20200821 R
+  window_target_mwh: 0 [0, 0]
+  window_other_mwh: 0.00446906432 [0, 0.0134071929]
+  window_system_mwh: 0.00446906432 [0, 0.0134071929]
+  tail_target_mwh: -0.0860329204 [-0.163919525, -0.0336640472]
+  tail_other_mwh: 0.0815638561 [0.0336640472, 0.150512332]
+  tail_system_mwh: -0.00446906432 [-0.0134071929, 5.03069808e-16]
+  window_sitewise_absolute_discrepancy_mwh: 0 [0, 0]

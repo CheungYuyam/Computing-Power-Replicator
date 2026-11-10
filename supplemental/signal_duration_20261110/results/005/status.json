@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "rows": 9,
+  "integrity_pass": true,
+  "bundle": {
+    "index": 5,
+    "name": "primary_20200727_s43_stagger_2.2_six",
+    "group": "primary",
+    "cases": 8
+  },
+  "finished": 1794290526.2083304
+}

@@ -1,0 +1,28 @@
+\begin{table}[H]
+\color{black}
+\captionsetup{labelfont={color=black},textfont={color=black}}
+\caption{Task-Service Changes Across Signal Durations}
+\label{tab:app-duration-service}
+\centering\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lccc@{}}
+\toprule
+Date & \shortstack{Duration\\(h)} & \shortstack{Completion at 48 h\\(percentage points)} & \shortstack{Mean waiting through 72 h\\(min)}\\
+\midrule
+07-27 & 1 & \shortstack{0.096\\{}[0.042, 0.181]} & \shortstack{-0.662\\{}[-0.913, -0.470]}\\
+ & 2 & \shortstack{0.152\\{}[0.084, 0.257]} & \shortstack{-1.268\\{}[-1.853, -0.805]}\\
+ & 4 & \shortstack{0.245\\{}[0.204, 0.306]} & \shortstack{-2.037\\{}[-2.386, -1.783]}\\
+\midrule
+08-05 & 1 & \shortstack{-0.139\\{}[-0.448, 0.023]} & \shortstack{-0.633\\{}[-1.562, 0.144]}\\
+ & 2 & \shortstack{-0.135\\{}[-0.448, 0.046]} & \shortstack{-1.031\\{}[-1.624, -0.585]}\\
+ & 4 & \shortstack{-0.132\\{}[-0.441, 0.052]} & \shortstack{-1.465\\{}[-1.795, -1.100]}\\
+\midrule
+08-21 & 1 & 0 & \shortstack{-0.051\\{}[-0.148, -0.001]}\\
+ & 2 & 0 & \shortstack{-0.059\\{}[-0.168, -0.001]}\\
+ & 4 & 0 & \shortstack{-0.064\\{}[-0.180, -0.003]}\\
+\bottomrule
+\end{tabular*}
+\vspace{3pt}
+\parbox{\columnwidth}{Signal on minus off for the same cohort released during hours 24--48. Each cell gives the mean and [minimum, maximum] across three paired seeds under recorded execution.}
+\end{table}

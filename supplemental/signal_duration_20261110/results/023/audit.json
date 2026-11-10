@@ -1,0 +1,98 @@
+{
+  "off": {
+    "max_reconstruction_error_mw": 6.394884621840902e-14,
+    "cohort": 87739,
+    "tasks": 221568,
+    "unassigned_tasks": 0,
+    "service": {
+      "R": {
+        "restricted_mean_wait_s": 4291.98987740233,
+        "restricted_p95_wait_s": 25350.78272251306,
+        "completion_fraction_48h": 0.9895485473962548
+      },
+      "C": {
+        "restricted_mean_wait_s": 3739.0659216599634,
+        "restricted_p95_wait_s": 23990.946596858605,
+        "completion_fraction_48h": 0.9897081115581441
+      }
+    },
+    "hashes": {
+      "config.json": "c2bd4d8edbd201b9bb70ea4db0285c4796a39137a6a7daa610b647cca7291a3d",
+      "tasks.jsonl.gz": "20c74226dc38647cd2a593dbc56e0df66065d1744aac2b448e2c15aad1d2a981",
+      "revisions.jsonl.gz": "abb90faaf7515421c494429e2b62097d8ce50ec61a37b141c389fc1b4f1a0b67",
+      "trace.jsonl.gz": "11eafe6f412adaa55332f54a055783868336c2bca9458059faeffae20768c11a"
+    }
+  },
+  "1": {
+    "max_reconstruction_error_mw": 6.394884621840902e-14,
+    "cohort": 87739,
+    "tasks": 221568,
+    "unassigned_tasks": 0,
+    "service": {
+      "R": {
+        "restricted_mean_wait_s": 4291.9388604910955,
+        "restricted_p95_wait_s": 25350.78272251306,
+        "completion_fraction_48h": 0.9895485473962548
+      },
+      "C": {
+        "restricted_mean_wait_s": 3739.0321126157783,
+        "restricted_p95_wait_s": 23990.946596858605,
+        "completion_fraction_48h": 0.9897081115581441
+      }
+    },
+    "hashes": {
+      "config.json": "458aa607debcb474ad103bf0ad7bd0229e20cda4759bcac304550eff75d3926e",
+      "tasks.jsonl.gz": "c4e7fc4d3a8a990fd3b4f8a4b694eb505e3ea29bc9bfd45e50d0dd7d41306489",
+      "revisions.jsonl.gz": "655bfb3e6b07c1d4a599d8ac390fcf437f49348386ae11f1f5592f3c9e275ec2",
+      "trace.jsonl.gz": "fbcc270954aae119610ecd7e9da880ff0bb9676255446fdff48b88f2e804acb9"
+    }
+  },
+  "2": {
+    "max_reconstruction_error_mw": 6.394884621840902e-14,
+    "cohort": 87739,
+    "tasks": 221568,
+    "unassigned_tasks": 0,
+    "service": {
+      "R": {
+        "restricted_mean_wait_s": 4291.9388604910955,
+        "restricted_p95_wait_s": 25350.78272251306,
+        "completion_fraction_48h": 0.9895485473962548
+      },
+      "C": {
+        "restricted_mean_wait_s": 3739.0321126157783,
+        "restricted_p95_wait_s": 23990.946596858605,
+        "completion_fraction_48h": 0.9897081115581441
+      }
+    },
+    "hashes": {
+      "config.json": "f4874fce6014a072112585d94d3a42a62e1721c0df4d4d93bd9b20f6e6facadc",
+      "tasks.jsonl.gz": "ab03cd18cec1856dc70a4c01ad63d96d1445ccf685ebb3c07f6e19b59bc69123",
+      "revisions.jsonl.gz": "c61e632a6f8c720befb1639e7d188bb4d5cf0f02069aadb747030aea6e2dc186",
+      "trace.jsonl.gz": "a4716ff95889fdc51016172406fc229973644cd95534bf4e5f1eca84d7486054"
+    }
+  },
+  "4": {
+    "max_reconstruction_error_mw": 6.394884621840902e-14,
+    "cohort": 87739,
+    "tasks": 221568,
+    "unassigned_tasks": 0,
+    "service": {
+      "R": {
+        "restricted_mean_wait_s": 4291.789827862253,
+        "restricted_p95_wait_s": 25348.649214659672,
+        "completion_fraction_48h": 0.9895485473962548
+      },
+      "C": {
+        "restricted_mean_wait_s": 3738.9316657227478,
+        "restricted_p95_wait_s": 23990.946596858605,
+        "completion_fraction_48h": 0.9897081115581441
+      }
+    },
+    "hashes": {
+      "config.json": "9b3512e2f6374e33a0ea1ba8f6bb5aebd49946603d8bd53a085fab5ed8767fbb",
+      "tasks.jsonl.gz": "93428c1bdce5a08e9ce102ead1d3ccb833a49ac8b81f0a0a6d918e9c3ed97d83",
+      "revisions.jsonl.gz": "eabbf8ed4a42def33a76768db71d34a587bac8ed070a314297da67370e5740bb",
+      "trace.jsonl.gz": "eedd4bfc66cdf666eab258f2dd383b0ec39e32a09ef43e6686628166fb3c17ac"
+    }
+  }
+}

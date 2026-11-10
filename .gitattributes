@@ -1,0 +1,2 @@
+# Preserve frozen supplemental file bytes for the SHA-256 manifest on all hosts.
+supplemental/** -text

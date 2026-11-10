@@ -1,8 +1,14 @@
 # Computing-Power-Replicator
 
-Research code for **A Joint System Model for Computing–Power Coordination With Task Execution and Delayed Accumulated-Cost Feedback**.
+Research code and derived experimental data for **Modeling Data Center Demand Response in Power Systems With Task Execution and Delayed Cost Feedback**.
 
 The model connects completion-driven task allocation, receiving-site resource admission, grid dispatch, and delayed accumulated-cost feedback. It jointly evaluates task service, resource pressure, and electrical outcomes using measured PM100 task/power records and RTS-GMLC network/time-series data.
+
+## November 10, 2026 Update
+
+The current manuscript focuses on achievable data-center demand response in power systems. This update adds all nine paired startup-wait replays and the 1/2/4-hour signal-duration study, including numerical arrays, seed-level metrics, summaries, audit records, tests, and table generation. See [Supplemental experiments](docs/SUPPLEMENTAL_20261110.md).
+
+The repository provides our code and derived experimental results. PM100 and RTS-GMLC remain separately sourced reference datasets; their official access links are in [Data](docs/DATA.md). The manuscript itself is not posted here.
 
 ## Current Study
 
@@ -20,6 +26,7 @@ PM100 supplies measured task properties and power profiles. Sequential dependenc
 | `systems/structure/` | Stream construction × resource admission: 36 bundles, 144 runs |
 | `numerical/` | Controlled replicator model and historical 45-case protocol |
 | `paper/current/` | Current Figures 1–7, compact evidence, renderers, and table exports |
+| `supplemental/` | November 10 startup-wait replays and duration-study code/results |
 | `docs/` | Data, reproduction, figure mapping and validation instructions |
 | `provenance/` | Source mappings and SHA-256 inventories |
 

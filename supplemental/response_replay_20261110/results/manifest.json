@@ -1,0 +1,61 @@
+{
+  "scope": "frozen assignment diagnostic; not prospective prediction",
+  "selected": [
+    {
+      "index": 1,
+      "name": "primary_20200727_s17_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 3,
+      "name": "primary_20200727_s29_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 5,
+      "name": "primary_20200727_s43_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 12,
+      "name": "primary_20200805_s17_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 14,
+      "name": "primary_20200805_s29_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 16,
+      "name": "primary_20200805_s43_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 23,
+      "name": "primary_20200821_s17_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 25,
+      "name": "primary_20200821_s29_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    },
+    {
+      "index": 27,
+      "name": "primary_20200821_s43_stagger_2.2_six",
+      "group": "primary",
+      "cases": 8
+    }
+  ],
+  "script_sha256": "8860d6661d87cc331963d2b4d4f1e9f2711fcb39f9846e186e3aedfce565a89e",
+  "source_code_sha256": "861ad1327557f10b2c4e067daf7dc1797cb343f85d33ac9ae5639a7f64c9b0f6"
+}

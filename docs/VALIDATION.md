@@ -1,5 +1,11 @@
 # Validation of the Current Package
 
+## November 10 supplemental update
+
+The startup-wait replay suite passed 4 tests and the duration/metric suite passed 7 tests. Reaggregation of all 9 date/seed bundles verified 81 duration/representation rows. Independent array-energy discrepancy was at most 1.819e-12 kWh; stored task-power reconstruction audits report a maximum of 1.475e-13 MW. Table generation completed for the main response table and three duration-support tables. These are checks of packaged results and code, not a rerun of the full server experiment. The 18 new closed-loop duration runs and exact two-hour reproduction are the previously completed study results. The October 29 core code is unchanged.
+
+See `supplemental/signal_duration_20261110/results/verification.json` and [Supplemental experiments](SUPPLEMENTAL_20261110.md). This update adds no raw PM100 data, full task ledgers, manuscript text or editorial correspondence.
+
 ## Checks Repeated for the October 29 Update
 
 `python scripts/check_systems.py` passed 99 tests across four isolated code families:

@@ -1,0 +1,13 @@
+{
+  "jobs": 1386,
+  "counts": {
+    "accepted": 1399,
+    "not_completed": 644,
+    "request_allocation_mismatch_or_missing": 57,
+    "nominal_sampling_mismatch": 12
+  },
+  "origin": 1595808000.0,
+  "end": 1595977200.0,
+  "pm100_sha256": "10bc1ba948cd362657e97eea9b5f96ff16d77ac6e8e0e78894d60e2074d4fd89",
+  "construction": "offline interval-colored synthetic lanes; replicas are synthetic demand, not independent observations"
+}

@@ -1,0 +1,38 @@
+Material Passport
+Task: user-authorized supplemental experiment, 2026-11-10
+Status: frozen before new replay results
+Source: large_system_v3 release e02728b10095, primary staggered cases,
+three dates x three controller seeds; all nine pairs, no outcome selection.
+
+Question: conditional on the SAME recorded assignment times and destinations,
+how much does neglecting startup waits distort the load response to a signal?
+This is an offline mechanism ablation, NOT a prospective predictor, not a
+reproduction of LAD-Flex or any named classical method, not field validation.
+
+Representations (identical measured duration and power curve for each task):
+R: recorded starts, reconstructed exactly from measured curves; must match
+   original five-minute site loads before any comparison is accepted.
+C: start=max(recorded assignment time, release), omitting resource waiting.
+A: start=recorded assignment time, also omitting release waiting.
+Assignment of each successor is fixed at the recorded predecessor completion.
+Unassigned successors remain unassigned. First task assignment is time zero.
+These are frozen timing ablations, not closed-loop runs with a new policy.
+No claim that these infeasible relaxation trajectories can be dispatched.
+Primary energy and power differences are SIGNAL ON minus SIGNAL OFF.
+Representational discrepancy is (C or A response) minus R response.
+No relative percentage error when reference response is zero.
+
+Evaluation: signal [36,38) h, post-window [38,72) h; also [24,48) h.
+Report target/other/system energy, average power, absolute trajectory error,
+first interval with a nonzero response (resolution 300 s; null if absent),
+restricted waiting and completion for the same [24,48) release cohort.
+Waiting under C is hypothetical; do not present A negative waits as service.
+Preserve per-date/seed rows, aggregate means/min/max within dates only.
+Replicated tasks are not independent samples. No significance claims.
+
+Integrity gates: matching task cohorts across pairs; no new pre-signal
+differences; exact actual-power reconstruction <=1e-8 MW; no release or
+predecessor violation under C; all input/source hashes; refusal to overwrite.
+Add hand-solvable tests of interval integration and waiting relaxations.
+Manuscript unchanged. Proposed placement: price-response subsection before
+matched-task mechanism explanation, with protocol and full rows in appendix.
